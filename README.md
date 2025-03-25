@@ -10,7 +10,7 @@ All course content is maintained in this Git repository -- including history of 
 * [Examples](https://github.com/CS50DartmouthSP25/examples)
 * [Labs](labs/README.md)
 <!-- * [Project](https://github.com/CS50DartmouthFA24/nuggets-info) -->
-* [Canvas]({{canvas}})
+* [Canvas](https://canvas.dartmouth.edu/courses/71415)
 * [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/)
 <!-- * [Zoom]({{zoom-class}}) (classes)
 * [Zoom]({{zoom-hours}}) (office hours)
