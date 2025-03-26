@@ -36,10 +36,9 @@ If you have questions about the Learning Fellow Program in general, please visit
 
 ## <a id="schedule">Schedule</a>
 
-A `pdf` version of the schedule is available [for section 01](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/Schedule-S1.pdf)).
 
 <!-- @CHANGEME -->
-Section 01 meets in the 11 time slot (see  [Dartmouth class schedule](https://www.dartmouth.edu/reg/calendar/term/24_25_term_calendar.html#d)). All class times and the official assignment deadlines are posted in the Canvas (https://canvas.dartmouth.edu/courses/71415) calendar. We recommend you subscribe to that calendar using whatever calendar tool you prefer. Changes will be announced via updates to the Canvas calendar _and_ on the `#general` channel of our [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) workspace.
+This section meets in the 3A time slot (see  [Dartmouth class schedule](https://www.dartmouth.edu/reg/docs/class_schedule.pdf)). All class times and the official assignment deadlines are posted in the Canvas ({{canvas1}}) calendar. We recommend you subscribe to that calendar using whatever calendar tool you prefer. Changes will be announced via updates to the Canvas calendar _and_ on the `#general` channel of our [Slack]({{slack}}) workspace.
 
 ---
 
