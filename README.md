@@ -3,7 +3,7 @@
 All course content is maintained in this Git repository -- including history of additions and changes.
 
 * [Schedule](logistics/syllabus.md#schedule)
-<!-- * * [Syllabus](logistics/syllabus.md) -->
+* [Syllabus](logistics/syllabus.md) 
 * [Systems](logistics/systems.md)
 * [Activities](activities/README.md)
 * [Knowledge units](knowledge/README.md)
