@@ -5,7 +5,7 @@ It's not graded, but is **required** for you to participate in the course.
 
 ## Part 1: Team Formation (5 minutes)
 
-Visit [Canvas]({{canvas}}) and click *Team Formation* link on the left side.
+Visit [Canvas]({{canvas1}}) and click *Team Formation* link on the left side.
 Answer its questions **by midnight EDT tomorrow** ([Instructions](https://services.dartmouth.edu/TDClient/1806/Portal/KB/ArticleDet?ID=128042)).
 It should take you less than five minutes.
 
@@ -17,12 +17,15 @@ and to help support you through the term.
 ## Part 2: Slack (10 minutes)
 Complete this step **before the next class meeting**.
 
-Join our Slack Workspace via the button on [Canvas]({{canvas}}).
+Join our Slack Workspace via the button on [Canvas]({{canvas1}}).
 This should only take a few minutes.
 You'll automatically be part of several discussion channels,
 and you can optionally join more by clicking *Add channels*, then *Browse all channels* below the list of channels.
 
 All official course communications will come through Slack and Canvas.
+
+> [!NOTE]
+> Do not send the teaching team email! All communications must be via Slack
 
 ## Part 3: Systems (20 minutes)
 Complete this step **before the next class meeting**.
