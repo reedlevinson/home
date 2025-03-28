@@ -3,3 +3,17 @@
 In a class or two each week, you'll join your team for a group activity; their materials will be posted here.
 
  * 0: [Hello Linux!](activity0)
+ * 1: [Billboard 100](activity1)
+ * 2: [Shell games](activity2)
+ * 3: [Gittin' aroun](activity3)
+ * 4: [C ya!](activity4)
+ * 5: [MadLibs](activity5)
+ * 6: [Memory games](activity6)
+ * 7: [Structs & pointers](activity7) 
+ * 8: [Can you make it?](activity8)
+ * 9: [Let's get modular!](activity9)
+ * 10: [Cohesive or just sticky?](activity10)
+ * 11: [Squashing bugs with gdb](activity11)
+ * 12: [debugging with Valgrind](activity12)
+ * 13: [Let's make a lib](activity13)
+ * 14: [Can you break it?](activity14)
