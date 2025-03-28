@@ -3,15 +3,6 @@
 This first assignment is simple but essential.
 It's not graded, but is **required** for you to participate in the course.
 
-## Part 0: Meet the prof! (10 minutes)
-
-<!-- @CHANGEME link -->
-
-I want to meet you all!
-[Sign up](https://calendly.com/david-kotz/get-to-know-you) (**now**) on Calendly for a slot to meet me (later this week).
-This is just a quick 10-minute chance to introduce yourself... I also hope to talk with many of you often in office hours throughout the term.
-
-
 ## Part 1: Team Formation (5 minutes)
 
 Visit [Canvas]({{canvas}}) and click *Team Formation* link on the left side.
