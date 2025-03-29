@@ -1,4 +1,5 @@
-# CS50 Labs
+
+# COSC 50 Labs
 
  * [Lab 0 - Setup](lab0)
 
