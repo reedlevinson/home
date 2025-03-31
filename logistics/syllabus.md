@@ -53,7 +53,7 @@ We will manage the class using these tools:
 - [Panopto]({{panopto}}) for knowledge units and other videos,
 - [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) for **all** announcements and class discussion **in both sections**, and
 - [GitHub](https://github.com/CS50DartmouthSP25/home) for the class website, assignment starter kits,
-and assignent submissions.
+and assignment submissions.
 
 Follow the Canvas (https://canvas.dartmouth.edu/courses/71415) calendar and monitor the `#general` channel on Slack to be alerted to any changes.
 
@@ -66,7 +66,8 @@ The majority of questions and problems can be resolved via posts to [Slack](http
 > [!TIP]
 > If you ask one person a question using a Slack DM, you must wait for that person to answer. If you ask your question in a Slack channel, where other students, TA's, and the instructor can see it, you will **always** get an answer more quickly.
 
-Instructor office hours are on Mondays and Wednesdays 1900-2030 via Zoom.
+<!-- Instructor office hours are on Mondays and Wednesdays 1900-2030 via Zoom. -->
+Instructor office hours are on Tuesdays (1-2PM) and Fridays (2-3PM).
 See the Canvas (https://canvas.dartmouth.edu/courses/71415) front page for details. TA office hours will also be posted there. 
 
 > [!NOTE]
