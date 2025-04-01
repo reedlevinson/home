@@ -19,7 +19,8 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Sep-16 Fall 2024
+<!-- ### Sep-16 Fall 2024 -->
+### Week1 Spring 2025 
 * Unit: [Welcome to CS50!](overview.md)
 * Unit: [Introduction to Unix](intro-unix.md)
 * History: [Origin of Unix](hist-unix.md)
@@ -28,7 +29,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Sep-17/18 Fall 2024
 * Reading: [Unix shell and commands](read-unix.md)
 * Unit: [The Bash shell](bash-intro.md)
 * Unit: [Unix filesystem](bash-files.md)
@@ -37,7 +37,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Sep-18/19 Fall 2024
 * Unit: [Standard input and output](bash-stdin-out.md)
 * Unit: [Special characters, quoting, and sed](bash-quoting.md)
 * Unit: [Shell scripts and variables](bash-script.md)
@@ -49,7 +48,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Sep-20 Fall 2024
 * Unit: [Shell scripts and conditional expressions](bash-conditional.md)
 * Unit: [Looping in shell](bash-loops.md)
 * Unit: [Shell 'while' loops](bash-while.md)
@@ -59,15 +57,12 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Sep-23 Fall 2024
+### Week2 Spring 2025
 * Unit: [Git concepts and commands](git.md)
 * Reading: [Git reference and reading](read-git.md)
 * Reading: [GitHub quick markdown guide](read-git2.md)
 
-
 ---
-
-### Sep-24/25 Fall 2024
 * Reading: [C programming](read-c1.md)
 * Unit: [Introduction to C](c-intro.md)
 * Unit: [The C compilation process](c-compile.md)
@@ -80,7 +75,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Sep-25/26 Fall 2024
 * Unit: [C - types](c-types.md)
 * Unit: [C - global and local scopes](c-scopes.md)
 * Unit: [C - strings](c-string.md)
@@ -93,7 +87,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Sep-27 Fall 2024
 * Reading: [C programming, memory allocation, data structures](read-c2.md)
 * Unit: [Memory, pointers, and malloc](memory.md)
 * Unit: [Dynamic memory allocation](malloc.md)
@@ -107,7 +100,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Sep-30 Fall 2024
+### Week3 Spring 2025
 * Unit: [C - arrays of pointers and more](c-arrays.md)
 * Unit: [Parsing command-line arguments](parseArgs.md)
 * Unit: [Structs and linked lists](structs.md)
@@ -117,7 +110,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Oct-01/02 Fall 2024
 * Unit: [Modules and Makefiles](makefiles1.md)
 * Unit: [More about make and Makefiles](makefiles2.md)
 * Unit: [Tips about Makefiles](makefiles-tips.md)
@@ -130,40 +122,32 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Oct-02/03 Fall 2024
 * Unit: [Modular data structures in C](modules.md)
 * History: [President Kemeny on "Computers and Values”, May 1984](kemeny.md)
 
 
 ---
 
-### Oct-04 Fall 2024
 * Unit: [Iterators](iterators.md)
 * Unit: [Cohesion and coupling](cohesion.md)
 
-
 ---
 
-### Oct-07 Fall 2024
-* Unit: [Debugging techniques and 'gdb'](gdb.md)
-* Reading: [Bugs and debugging](read-bugs.md)
-
-
----
-
-### Oct-08/09 Fall 2024
-* Unit: [Valgrind, for debugging memory errors](valgrind.md)
-
-
----
-
-### Oct-09/10 Fall 2024
 * Unit: [Building and using libraries with Makefiles](libraries.md)
 
 
 ---
 
-### Oct-11 Fall 2024
+### Week4 Spring 2025 
+* Unit: [Debugging techniques and 'gdb'](gdb.md)
+* Reading: [Bugs and debugging](read-bugs.md)
+
+* Unit: [Valgrind, for debugging memory errors](valgrind.md)
+
+
+---
+
+<!-- ### Oct-11 Fall 2024 -->
 * Reading: [Testing and debugging](read-test.md)
 * Unit: [Testing - why?](testing-intro.md)
 * Unit: [Unit testing - bag](testing-bag.md)
@@ -174,27 +158,20 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Oct-14 Fall 2024
+<!-- ### Oct-14 Fall 2024-->
+### Week5 Spring 2025 
 * Unit: [Searching The Web](search.md)
 * Unit: [TSE Crawler requirements and design](crawler.md)
 * Reading: [Searching the web](read-search.md)
 * Optional: [Tricks for logging progress](crawler-logging.md)
 
-
 ---
 
-### Oct-15/17 Fall 2024
-
-
----
-
-### Oct-16 Fall 2024
 * Unit: [Advanced gdb](advgdb.md)
 
 
 ---
 
-### Oct-18 Fall 2024
 * Unit: [Software design methodology](design.md)
 * Reading: [Practical programmer tips](read-design.md)
 * Reading: [More tips about coding](read-coding.md)
@@ -202,46 +179,24 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Oct-21 Fall 2024
+<!-- ### Oct-21 Fall 2024 --> 
+### Week6 Spring 2025 
 * Unit: [Indexer Design](indexer.md)
-
-
----
-
-### Oct-22/23 Fall 2024
 * Reading: [fuzz testing and other techniques](fuzz-testing.md)
-
+* Unit: [Scrum project management](scrum.md) 
 
 ---
 
-### Oct-23/24 Fall 2024
+### Week7 Spring 2025 
 * Unit: [Querier parsing: expressions](querier-expressions.md)
 * Optional: [Querier parsing: chopping a string into sub-strings](querier-chop.md)
 * Optional: [Documentation](documentation.md)
-
-
----
-
-### Oct-25 Fall 2024
-* Unit: [Scrum project management](scrum.md)
-
-
----
-
-### Oct-28 Fall 2024
 * Unit: [TSE Querier (demo)](querier.md)
 * Unit: [Testing querier](querier-testing.md)
 
+<!-- --- -->
 
----
-
-### Oct-29/31 Fall 2024
-* Unit: [Teamwork](teams.md)
-
-
----
-
-### Oct-30 Fall 2024
+<!-- ### Oct-30 Fall 2024 -->
 * Unit: [Protecting the main branch](protect-main.md)
 * Unit: [Git - merge conflicts](git-conflict.md)
 * Unit: [Git flow](git-flow.md)
@@ -249,15 +204,16 @@ Like any budding hacker you need to do some experimenting, find information to f
 * Reading: [Git-flow tutorials](read-git-flow.md)
 * Optional: [nCurses](ncurses.md)
 
+---
+
+### Week8 Spring 2025 
+* Unit: [Teamwork](teams.md)
+
 
 ---
 
-### Nov-01 Fall 2024
-
-
----
-
-### Nov-04 Fall 2024
+<!-- ### Nov-04 Fall 2024 --> 
+### miscellaneous
 * Extra: [Reading: Networking](read-network.md)
 * Extra: [Socket programming and TCP](sockets.md)
 * Extra: [UDP sockets](udp.md)
