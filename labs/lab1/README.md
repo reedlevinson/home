@@ -29,7 +29,7 @@ It will look something like this, assuming your GitHub username is XXXXX, and ab
 
 ```
 	$ cd cs50-dev/
-	$ git clone git@github.com:cs50spring2025/lab1-XXXXX.git
+	$ git clone git@github.com:CS50DartmouthSP25/lab1-XXXXX.git
 	Cloning into 'lab1-XXXXX'...
 ```
 
