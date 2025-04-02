@@ -24,7 +24,7 @@ You need to format your `README.md` file in Markdown syntax, and you will write 
 
 Do all your work on the Linux server.
 
-Clone the lab1 starter kit: [Accept the assignment](https://classroom.github.com/a/QuYIjMLD), and clone the repository to your `cs50-dev` directory on `plank`.
+Clone the lab1 starter kit: [Accept the assignment](https://classroom.github.com/a/XZibWiRS), and clone the repository to your `cs50-dev` directory on `plank`.
 It will look something like this, assuming your GitHub username is XXXXX, and abbreviating the bash prompt to `$`:
 
 ```
