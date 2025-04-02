@@ -2,6 +2,7 @@
 # COSC 50 Labs
 
  * [Lab 0 - Setup](lab0)
+ * [Lab 1 - Bash](lab1)
 
 Please note:
 
