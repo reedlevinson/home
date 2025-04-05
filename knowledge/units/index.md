@@ -36,7 +36,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-
+<!--### Week2 Spring 2025-->
 * Unit: [Standard input and output](bash-stdin-out.md)
 * Unit: [Special characters, quoting, and sed](bash-quoting.md)
 * Unit: [Shell scripts and variables](bash-script.md)
@@ -47,7 +47,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-
+### Week2 Spring 2025 (Apr-07)
 * Unit: [Shell scripts and conditional expressions](bash-conditional.md)
 * Unit: [Looping in shell](bash-loops.md)
 * Unit: [Shell 'while' loops](bash-while.md)
@@ -57,12 +57,13 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Week2 Spring 2025
 * Unit: [Git concepts and commands](git.md)
 * Reading: [Git reference and reading](read-git.md)
 * Reading: [GitHub quick markdown guide](read-git2.md)
 
 ---
+
+### Week2 Spring 2025 (Apr-09)
 * Reading: [C programming](read-c1.md)
 * Unit: [Introduction to C](c-intro.md)
 * Unit: [The C compilation process](c-compile.md)
@@ -71,7 +72,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 * Unit: [C - math library](c-math.md)
 * Optional: [C - operators](c-operators.md)
 * History: [Programming languages](hist-c.md)
-
 
 ---
 
