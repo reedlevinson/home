@@ -100,7 +100,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Week3 Spring 2025
+### Week3 Spring 2025 (Apr-14)
 * Unit: [C - arrays of pointers and more](c-arrays.md)
 * Unit: [Parsing command-line arguments](parseArgs.md)
 * Unit: [Structs and linked lists](structs.md)
@@ -109,7 +109,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-
+### Week3 Spring 2025 (Apr-16)
 * Unit: [Modules and Makefiles](makefiles1.md)
 * Unit: [More about make and Makefiles](makefiles2.md)
 * Unit: [Tips about Makefiles](makefiles-tips.md)
@@ -138,7 +138,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Week4 Spring 2025 
+### Week4 Spring 2025 (Apr-21)
 * Unit: [Debugging techniques and 'gdb'](gdb.md)
 * Reading: [Bugs and debugging](read-bugs.md)
 
@@ -148,6 +148,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 ---
 
 <!-- ### Oct-11 Fall 2024 -->
+### Week4 Spring 2025 (Apr-23)
 * Reading: [Testing and debugging](read-test.md)
 * Unit: [Testing - why?](testing-intro.md)
 * Unit: [Unit testing - bag](testing-bag.md)
