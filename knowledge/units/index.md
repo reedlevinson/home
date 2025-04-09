@@ -86,7 +86,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-
+### Week3 Spring 2025 (Apr-14)
 * Reading: [C programming, memory allocation, data structures](read-c2.md)
 * Unit: [Memory, pointers, and malloc](memory.md)
 * Unit: [Dynamic memory allocation](malloc.md)
@@ -100,7 +100,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Week3 Spring 2025 (Apr-14)
 * Unit: [C - arrays of pointers and more](c-arrays.md)
 * Unit: [Parsing command-line arguments](parseArgs.md)
 * Unit: [Structs and linked lists](structs.md)
