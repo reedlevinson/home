@@ -3,6 +3,7 @@
 
  * [Lab 0 - Setup](lab0)
  * [Lab 1 - Bash](lab1)
+ * [Lab 2 - C](lab2)
 
 Please note:
 
