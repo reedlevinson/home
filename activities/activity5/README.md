@@ -16,7 +16,7 @@ Answer the following in a Markdown file and one team member should upload it to 
 2. Play it once on your own, using the example input madlib1.txt; afterward, look at the input and output files.
 2. Play again as a team; one person run it on madlib2.txt -- don't peek at the file! -- and all teammates can call out the words to input.  Read the output file aloud!
 1. Study the code for madlib.c.
-  Make a list of questions to ask the professor.
+  Make a list of questions to ask your learning fellow (or the professor).
   Try to answer these questions:
   1. Notice the "global constants" at the top of the file; why are they defined there? Why are they defined at all?
   1. Why is `const` applied to the parameters of `main` and its three string variables?
