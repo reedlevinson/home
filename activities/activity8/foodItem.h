@@ -1,0 +1,6 @@
+/*
+ * foodItem.h
+*/
+
+ 
+void showFoodItemHeader();
