@@ -126,28 +126,23 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-
+### Week4 Spring 2025 (Apr-21)
 * Unit: [Iterators](iterators.md)
 * Unit: [Cohesion and coupling](cohesion.md)
-
 ---
 
-* Unit: [Building and using libraries with Makefiles](libraries.md)
-
-
----
-
-### Week4 Spring 2025 (Apr-21)
 * Unit: [Debugging techniques and 'gdb'](gdb.md)
 * Reading: [Bugs and debugging](read-bugs.md)
 
-* Unit: [Valgrind, for debugging memory errors](valgrind.md)
+<!-- * Unit: [Valgrind, for debugging memory errors](valgrind.md) -->
 
 
 ---
-
 <!-- ### Oct-11 Fall 2024 -->
 ### Week4 Spring 2025 (Apr-23)
+* Unit: [Building and using libraries with Makefiles](libraries.md)
+
+---
 * Reading: [Testing and debugging](read-test.md)
 * Unit: [Testing - why?](testing-intro.md)
 * Unit: [Unit testing - bag](testing-bag.md)
