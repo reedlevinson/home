@@ -7,7 +7,7 @@
 
 ## Prepare
 
-**Pick *one* person in your group to go first**, and [accept the assigment](https://classroom.github.com/a/RRjEryov) on GitHub Classroom.
+**Pick *one* person in your group to go first**, and [accept the assigment](https://classroom.github.com/a/gUZb9LNI) on GitHub Classroom.
 They will be asked to join an existing group or to create a new group; they should create a new group using your CS50 group name.
 Once finished, the rest of you should click through that link and pick the same group name from the list of existing groups.
 
@@ -23,7 +23,7 @@ Clone that repository and make yourself a new branch:
 Things to notice:
 
 * a long-ish `main()` function (because of extensive error checking) but good section-header comments to indicate overall flow.
-* use of the `file` module from Lab3
+* use of the `file` module 
 * A big `struct` for holding each row of data from the csv file
 * a `typedef` to define a new type for that struct
 * character pointers (for strings) inside the struct; where do they point?
