@@ -6,7 +6,7 @@ Grading will focus on [CS50 coding style](https://github.com/CS50DartmouthSP25/h
 
 ***Your C code must compile without producing any compiler warnings.***
 You will lose points if the compiler produces warnings when using our CS50-standard compiler flags (as shown in the `bag/Makefile`).
-Recall our policy about [programs that crash](https://github.com/CS50DartmouthSP25/home/blob/main/logistics#crash).
+Recall our policy about [programs that crash](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/syllabus.md#crash).
 
 ***If your submitted code fails to compile, or triggers a segmentation fault,*** you will fail all/some of our correctness tests, and lose points for correctness on those test cases.
 Write defensive code: each function should check its pointer parameters for NULL, and take some appropriate (safe) action.
