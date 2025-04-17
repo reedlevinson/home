@@ -4,6 +4,7 @@
  * [Lab 0 - Setup](lab0)
  * [Lab 1 - Bash](lab1)
  * [Lab 2 - C](lab2)
+ * [Lab 3 - Data structures in C](lab3)
 
 Please note:
 
