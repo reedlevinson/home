@@ -134,8 +134,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 * Unit: [Debugging techniques and 'gdb'](gdb.md)
 * Reading: [Bugs and debugging](read-bugs.md)
 
-<!-- * Unit: [Valgrind, for debugging memory errors](valgrind.md) -->
-
 
 ---
 <!-- ### Oct-11 Fall 2024 -->
@@ -161,7 +159,9 @@ Like any budding hacker you need to do some experimenting, find information to f
 * Optional: [Tricks for logging progress](crawler-logging.md)
 
 ---
+* Unit: [Valgrind, for debugging memory errors](valgrind.md)
 
+### Week5 Spring 2025 (Apr-30) 
 * Unit: [Advanced gdb](advgdb.md)
 
 
@@ -175,7 +175,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 ---
 
 <!-- ### Oct-21 Fall 2024 --> 
-### Week6 Spring 2025 
+### Week6 Spring 2025 (May-5) 
 * Unit: [Indexer Design](indexer.md)
 * Reading: [fuzz testing and other techniques](fuzz-testing.md)
 * Unit: [Scrum project management](scrum.md) 
