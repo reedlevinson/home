@@ -178,11 +178,14 @@ Like any budding hacker you need to do some experimenting, find information to f
 ### Week6 Spring 2025 (May-5) 
 * Unit: [Indexer Design](indexer.md)
 * Reading: [fuzz testing and other techniques](fuzz-testing.md)
+
+---
+  ### Week6 Spring 2025 (May-7) 
 * Unit: [Scrum project management](scrum.md) 
 
 ---
 
-### Week7 Spring 2025 
+### Week7 Spring 2025 (May-12) 
 * Unit: [Querier parsing: expressions](querier-expressions.md)
 * Optional: [Querier parsing: chopping a string into sub-strings](querier-chop.md)
 * Optional: [Documentation](documentation.md)
