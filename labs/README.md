@@ -5,6 +5,7 @@
  * [Lab 1 - Bash](lab1)
  * [Lab 2 - C](lab2)
  * [Lab 3 - Data structures in C](lab3)
+ * [Lab 4 - TSE Crawler](tse/crawler)
 
 Please note:
 
