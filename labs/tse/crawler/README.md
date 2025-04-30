@@ -74,7 +74,7 @@ and your **common** directory should contain the following files:
 If you finish Lab 4 early, we encourage you to begin work on Lab 5 or Lab 6.
 Your Lab 4 submission may contain a partly-completed indexer or querier; the graders will ignore those files, but must be able to build your crawler *from the top-level directory* without compilation errors and test your crawler without run-time errors.
 
-To submit, read the [Lab submission instructions](https://github.com/CS50DartmouthSP25/home/blob/main/labs/submit.md).
+To submit, read the [Lab submission instructions](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/submit.md).
 
 # Hints and tips
 
