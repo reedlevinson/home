@@ -4,7 +4,7 @@ In this lab you'll begin the Tiny Search Engine (TSE) by coding the *Crawler* ac
 * [Design Spec](DESIGN.md)
 * [Implementation Spec](IMPLEMENTATION.md)
 
-Grading will focus on [CS50 coding style](https://github.com/CS50DartmouthSP25/home/blob/main/labs/style.md) - including consistent formatting, selection of identifier names, and use of meaningful comments - in addition to correctness, testing, and documentation.
+Grading will focus on [CS50 coding style](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/style.md) - including consistent formatting, selection of identifier names, and use of meaningful comments - in addition to correctness, testing, and documentation.
 
 ***Your C code must compile without producing any compiler warnings.***  You will lose points if the compiler produces warnings when using our CS50-standard compiler flags.
 
