@@ -177,7 +177,8 @@ Like any budding hacker you need to do some experimenting, find information to f
 <!-- ### Oct-21 Fall 2024 --> 
 ### Week6 Spring 2025 (May-5) 
 * Unit: [Indexer Design](indexer.md)
-* Reading: [fuzz testing and other techniques](fuzz-testing.md)
+
+<!-- * Reading: [fuzz testing and other techniques](fuzz-testing.md) --> 
 
 ---
   ### Week6 Spring 2025 (May-7) 
