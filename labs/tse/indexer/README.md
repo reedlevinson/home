@@ -22,7 +22,7 @@ You will lose points for memory errors and leaks reported by valgrind on our tes
 ## Preparation
 
 1. Start with the same repository you used for Lab 4.
-*Before you begin*, make sure you submitted Lab 4 correctly, [as instructed](https://github.com/CS50DartmouthSP25/home/blob/main/labs/submit.md).
+*Before you begin*, make sure you submitted Lab 4 correctly, [as instructed](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/submit.md).
 1. Check to ensure your local repo is clean with `make clean` and everything looks correct according to `git status`.
     **Do not proceed** if you have uncommitted changes or unpushed commits.
     Seek help if you need to sort out your repo or GitHub.
