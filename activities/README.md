@@ -20,3 +20,4 @@ In a class or two each week, you'll join your team for a group activity; their m
  * 17: [Fifty clouds of gray](activity17)
  * 18: [Use the Fuzz, Luke!](activity18)
  * 19: [Intersect 'em](activity19)
+ * 20: [Succeed with Scrum](activity20)
