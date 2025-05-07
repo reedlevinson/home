@@ -180,13 +180,13 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 <!-- * Reading: [fuzz testing and other techniques](fuzz-testing.md) --> 
 
----
-  ### Week6 Spring 2025 (May-7) 
-* Unit: [Scrum project management](scrum.md) 
+
+<!--   ### Week6 Spring 2025 (May-7)  --> 
 
 ---
 
 ### Week7 Spring 2025 (May-12) 
+* Unit: [Scrum project management](scrum.md) 
 * Unit: [Querier parsing: expressions](querier-expressions.md)
 * Optional: [Querier parsing: chopping a string into sub-strings](querier-chop.md)
 * Optional: [Documentation](documentation.md)
