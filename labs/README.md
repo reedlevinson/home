@@ -7,6 +7,7 @@
  * [Lab 3 - Data structures in C](lab3)
  * [Lab 4 - TSE Crawler](tse/crawler)
  * [Lab 5 - TSE Indexer](tse/indexer)
+ * [Lab 6 - TSE Querier](tse/querier)
 
 Please note:
 
