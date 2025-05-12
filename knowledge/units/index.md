@@ -195,6 +195,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 <!-- --- -->
 
+### Week7 Spring 2025 (May-14) 
 <!-- ### Oct-30 Fall 2024 -->
 * Unit: [Protecting the main branch](protect-main.md)
 * Unit: [Git - merge conflicts](git-conflict.md)
