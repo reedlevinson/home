@@ -5,7 +5,7 @@ Here's a simplistic example from Chat-GPT:
 
 **Exclusive Vacation Haven: Island Eruptia**
 
-![eruptia](/Users/d29265d/Documents/Dartmouth/Teaching/cosc-050/home-private/activities/activity20/eruptia.jpeg)
+![eruptia](https://github.com/CS50DartmouthSP25/home/blob/main/activities/activity20/eruptia.jpeg)
 
 Welcome to Eruptia, the ultimate paradise nestled in the heart of Clang! Our exclusive resort offers a one-of-a-kind experience for volcano enthusiasts, adventure seekers, and luxury vacationers.
 
