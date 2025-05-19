@@ -28,7 +28,7 @@ All members of the team should then clone the team's new repository, which inclu
 
 ## Submissions
 
-*Deadlines are provided on the [course website](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/Schedule.pdf).*
+*Deadlines are provided on the [course website](https://canvas.dartmouth.edu/courses/71415).*
 
 ### Design spec
 
