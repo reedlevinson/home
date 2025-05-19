@@ -14,7 +14,7 @@ Your team will develop the code for the *Nuggets* game, according to the [Requir
 * Your team shall follow the [Git Flow](https://github.com/CS50DartmouthSP25/home/blob/main/knowledge/units/git-flow.md) style of git management.
 * Your team shall use the [Scrum](scrum.md) style of project management.
 * Good design, good style, good documentation, and good testing are expected.
-* Consider the [characteristics of a successful team](https://github.com/CS50DartmouthSP25/home/tree/main/activities/activity24).
+* Consider the characteristics of a successful team that we've discussed all term.
 
 :arrow_forward:
 You may find this [demo video](https://dartmouth.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbece9b4-30f1-49ab-8669-ad220160f0f0) to be helpful.
