@@ -32,7 +32,7 @@ I want to meet you all! Please consider
 ## Part 2: Slack (2 minutes)
 Complete this step **before the next class meeting**.
 
-Join our Slack Workspace via the [link](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) on the front page of our Canvas sites.
+Join our Slack Workspace via the link on the front page of our Canvas sites.
 
 <!--
 > [!NOTE]

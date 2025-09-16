@@ -20,7 +20,7 @@ These questions assume you completed the system setup of Lab 0.
 
 Now, **working in your group (perhaps one person sharing screen)**, do the following:
 
-1. Connect to `plank.thayer.dartmouth.edu` using `ssh`
+1. Connect to `plink.cs.dartmouth.edu` using `ssh`
 
 2. Look around ... how many files can you see?  Are there any "hidden" files?
 
@@ -68,5 +68,5 @@ Now, **working in your group (perhaps one person sharing screen)**, do the follo
 
 21. You may be temped to add `.` to your `PATH` variable. Why would you do that? Why would it be dangerous?
 
-22. logout from `plank`.
+22. logout from `plink`.
 

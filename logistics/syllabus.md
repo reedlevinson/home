@@ -39,51 +39,11 @@ If you have questions about the Learning Fellow Program in general, please visit
 <!-- 
 A `pdf` version of the schedule is available [for section 01](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/Schedule-S1.pdf)).
 -->
-
-<!-- @CHANGEME -->
-This section meets in the 3A time slot (see  [Dartmouth class schedule](https://www.dartmouth.edu/reg/docs/class_schedule.pdf)). All class times and the official assignment deadlines are posted in the Canvas (https://canvas.dartmouth.edu/courses/71415) calendar. We recommend you subscribe to that calendar using whatever calendar tool you prefer. Changes will be announced via updates to the Canvas calendar _and_ on the `#general` channel of our [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) workspace.
-
----
-
-## Communication
-
-We will manage the class using these tools:
-
-- [Canvas](https://canvas.dartmouth.edu/courses/71415) for the calendar, all assignments, and grades,
-- [Panopto]({{panopto}}) for knowledge units and other videos,
-- [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) for **all** announcements and class discussion **in both sections**, and
-- [GitHub](https://github.com/CS50DartmouthSP25/home) for the class website, assignment starter kits,
-and assignment submissions.
-
-Follow the Canvas (https://canvas.dartmouth.edu/courses/71415) calendar and monitor the `#general` channel on Slack to be alerted to any changes.
-
-### Contacting the teaching team
-
-**Do _not_ send us email.**
-
-The majority of questions and problems can be resolved via posts to [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/). By posting to the appropriate channel, anyone on the teaching team, or a fellow student, can answer your question. **However,** if your message might expose details of your solution or approach to a lab assignment, send a DM (Direct Message) to an individual TA.
-
-> [!TIP]
-> If you ask one person a question using a Slack DM, you must wait for that person to answer. If you ask your question in a Slack channel, where other students, TA's, and the instructor can see it, you will **always** get an answer more quickly.
-
-<!-- Instructor office hours are on Mondays and Wednesdays 1900-2030 via Zoom. -->
-Instructor office hours are on Tuesdays (1-2PM) and Fridays (2-3PM).
-See the Canvas (https://canvas.dartmouth.edu/courses/71415) front page for details. TA office hours will also be posted there. 
-
-> [!NOTE]
->
-> Instructor office hours procedure
->
-> When you join the zoom call, change your display name to begin with a number representing your place in line. For example, if you join and there are two other students already on the call, you would change your name from "Pat Doe" to "3 Pat Doe". That way the instructor can keep the meeting on track.
-
-If you need a private conversation with the teaching team, (1) attend office hours
-and ask for a 1:1 breakout room, or (2) send a DM (Direct Message) via [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) to one of the TAs or the instructor to arrange an appointment.
-
 ### <a id="slack">Slack</a>
 
-From our Canvas (https://canvas.dartmouth.edu/courses/71415) page you can join the [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) workspace for our class: [here's how](./systems.md#slack-setup). This workspace will be the primary place for engagement with one another, our TAs and LFs, and the instructor outside of class.
+From our Canvas page you can join the [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) workspace for our class: [here's how](./systems.md#slack-setup). This workspace will be the primary place for engagement with one another, our TAs and LFs, and the instructor outside of class.
 
-The teaching team will make announcements via the `#general` channel on [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/). You can use Slack channels to interact with your team, to ask questions about the assignments or course material, and to share content (and a bit of fun) related to the course. Some important points about seeking CS50 help over Slack:
+The teaching team will make announcements via the `#general` channel on Slack. You can use Slack channels to interact with your team, to ask questions about the assignments or course material, and to share content (and a bit of fun) related to the course. Some important points about seeking CS50 help over Slack:
 
 - Search the `#help-...` channels on Slack to see if your question has already been asked and answered.
 - Post your question on the appropriate help channel.
@@ -113,9 +73,9 @@ After the first day of class, you will be assigned to a 3 or 4-person team. Team
 ## Assignments
 
 All assignments will be completed on the Thayer Linux system
-`plank.thayer.dartmouth.edu`, with code managed and shared in [GitHub](https://github.com/CS50DartmouthSP25).
+`bablylon1.thayer.dartmouth.edu`, with code managed and shared in [GitHub](https://github.com/CS50DartmouthFA25).
 
-See the [Systems](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/systems.md) page for detail.
+See the [Systems](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/systems.md) page for detail.
 
 ### Labs
 
@@ -168,9 +128,9 @@ Your work is graded according to a rubric that I discuss with the graders. If yo
 
 1. If the grader made an obvious mistake (e.g., totaling error), contact the grader and we'll make the correction right away.
 
-2. If you feel the grader did not grade your answer accurately, then you should send a Slack DM to both the grader and the lead grader (Songyun Tao) to explain which program(s) need regrading and why. We will arrange for the whole assignment to be reviewed again.
+2. If you feel the grader did not grade your answer accurately, then you should send a Slack DM to both the grader and one of the graduate TAs to explain which program(s) need regrading and why. We will arrange for the whole assignment to be reviewed again.
 
-3. After you hear the outcome on your regrade request, if you still feel the matter is not resolved satisfactorily, then you should immediately DM Assistant Professor Kyungtae Kim.
+3. After you hear the outcome on your regrade request, if you still feel the matter is not resolved satisfactorily, then you should immediately DM the class instructor.
 
 > [!WARNING]
 > You must submit your regrade request _within one week_ from when the lab grade was released on Canvas. Please note that any regrade request that comes after the deadline stated above will not be considered, regardless of merit.
