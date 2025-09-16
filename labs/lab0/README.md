@@ -5,7 +5,7 @@ It's not graded, but is **required** for you to participate in the course.
 
 ## Part 1: Team Formation (5 minutes)
 
-Visit [Canvas](https://canvas.dartmouth.edu/courses/71415) and click *Team Formation* link on the left side.
+Visit [Canvas](https://canvas.dartmouth.edu/courses/71659) and click *Team Formation* link on the left side.
 Answer its questions **by midnight EDT tonight** ([Instructions](https://services.dartmouth.edu/TDClient/1806/Portal/KB/ArticleDet?ID=128042)).
 It should take you less than five minutes.
 
@@ -48,8 +48,8 @@ All official course communications will come through Slack and Canvas.
 ## Part 3: Systems (20 minutes)
 Complete this step **before the next class meeting**.
 
-Read through the [Systems](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/systems.md) page.
+Read through the [Systems](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/systems.md) page.
 Most of you use MacOS or Windows -- not Linux -- but in this course we will program exclusively on Linux.
 For consistency, we will all use a Linux server managed by our colleagues in the Thayer School of Engineering.
 This machine is known as `plank.thayer.dartmouth.edu`.
-Follow the instructions in this [GitHub repository](https://github.com/CS50DartmouthSP25/cs50-dev) to get yourself ready.
+Follow the instructions in this [GitHub repository](https://github.com/CS50DartmouthFA25/cs50-dev) to get yourself ready.

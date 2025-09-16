@@ -20,7 +20,7 @@ These questions assume you completed the system setup of Lab 0.
 
 Now, **working in your group (perhaps one person sharing screen)**, do the following:
 
-1. Connect to `plink.cs.dartmouth.edu` using `ssh`
+1. Connect to `babylon1.thayer.dartmouth.edu` using `ssh`
 
 2. Look around ... how many files can you see?  Are there any "hidden" files?
 
@@ -56,17 +56,17 @@ Now, **working in your group (perhaps one person sharing screen)**, do the follo
 
 18. What does the `touch`command do?  (Hint: use `man touch`) . Use it to create a file named `touched` in your home directory.
 
-19. `ssh` can be really handy. Open another terminal on your laptop and use `ssh` to run a command on `plank`:
+19. `ssh` can be really handy. Open another terminal on your laptop and use `ssh` to run a command on `babylon1`:
 
     ```bash
-    $ ssh netid@plank.thayer.dartmouth.edu ls
+    $ ssh netid@babylon1.thayer.dartmouth.edu ls
     ```
 
     and it returns the results. Try it! Do you see the `junk` and `touched` files?
 
-20. Go back to `plank` and remove the `junk` and `touched` files. Then try the `ssh` command above to ensure they are gone. Hmmm ... could you have used `ssh` to delete those files?
+20. Go back to `babylon1` and remove the `junk` and `touched` files. Then try the `ssh` command above to ensure they are gone. Hmmm ... could you have used `ssh` to delete those files?
 
 21. You may be temped to add `.` to your `PATH` variable. Why would you do that? Why would it be dangerous?
 
-22. logout from `plink`.
+22. logout from `babylon1`.
 
