@@ -20,15 +20,15 @@ Like any budding hacker you need to do some experimenting, find information to f
 ---
 
 <!-- ### Sep-16 Fall 2024 -->
-### Week1 Spring 2025 
+### Week1 
+---
+
+### Day 1
+
 * Unit: [Welcome to CS50!](overview.md)
 * Unit: [Introduction to Unix](intro-unix.md)
 * History: [Origin of Unix](hist-unix.md)
 * History: [Terminals](hist-terminal.md)
-
-
----
-
 * Reading: [Unix shell and commands](read-unix.md)
 * Unit: [The Bash shell](bash-intro.md)
 * Unit: [Unix filesystem](bash-files.md)
@@ -36,7 +36,9 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-<!--### Week2 Spring 2025-->
+
+### Day 2
+
 * Unit: [Standard input and output](bash-stdin-out.md)
 * Unit: [Special characters, quoting, and sed](bash-quoting.md)
 * Unit: [Shell scripts and variables](bash-script.md)
@@ -47,15 +49,19 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-### Week2 Spring 2025 (Apr-07)
+
+### Week2 
+
+### Day 1
 * Unit: [Shell scripts and conditional expressions](bash-conditional.md)
 * Unit: [Looping in shell](bash-loops.md)
 * Unit: [Shell 'while' loops](bash-while.md)
 * Optional: [Shell tips and tricks](bash-tips.md)
 * History: [Origin of "Artificial Intelligence"](hist-ai.md)
 
-
 ---
+
+### Day 2
 
 * Unit: [Git concepts and commands](git.md)
 * Reading: [Git reference and reading](read-git.md)
@@ -63,7 +69,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Week2 Spring 2025 (Apr-09)
+### Week2 
 * Reading: [C programming](read-c1.md)
 * Unit: [Introduction to C](c-intro.md)
 * Unit: [The C compilation process](c-compile.md)
@@ -86,7 +92,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-### Week3 Spring 2025 (Apr-14)
+### Week3 
 * Reading: [C programming, memory allocation, data structures](read-c2.md)
 * Unit: [Memory, pointers, and malloc](memory.md)
 * Unit: [Dynamic memory allocation](malloc.md)
@@ -108,7 +114,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-### Week3 Spring 2025 (Apr-16)
+### Week3 
 * Unit: [Modules and Makefiles](makefiles1.md)
 * Unit: [More about make and Makefiles](makefiles2.md)
 * Unit: [Tips about Makefiles](makefiles-tips.md)
@@ -126,7 +132,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 
 ---
-### Week4 Spring 2025 (Apr-21)
+### Week4 
 * Unit: [Iterators](iterators.md)
 * Unit: [Cohesion and coupling](cohesion.md)
 ---
@@ -137,7 +143,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 <!-- ### Oct-11 Fall 2024 -->
-### Week4 Spring 2025 (Apr-23)
+### Week4 
 * Unit: [Building and using libraries with Makefiles](libraries.md)
 
 ---
@@ -152,7 +158,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 ---
 
 <!-- ### Oct-14 Fall 2024-->
-### Week5 Spring 2025 (Apr-28) 
+### Week5 
 * Unit: [Searching The Web](search.md)
 * Unit: [TSE Crawler requirements and design](crawler.md)
 * Reading: [Searching the web](read-search.md)
@@ -161,7 +167,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 ---
 * Unit: [Valgrind, for debugging memory errors](valgrind.md)
 
-### Week5 Spring 2025 (Apr-30) 
+### Week5 
 * Unit: [Advanced gdb](advgdb.md)
 
 
@@ -175,17 +181,17 @@ Like any budding hacker you need to do some experimenting, find information to f
 ---
 
 <!-- ### Oct-21 Fall 2024 --> 
-### Week6 Spring 2025 (May-5) 
+### Week6 
 * Unit: [Indexer Design](indexer.md)
 
 <!-- * Reading: [fuzz testing and other techniques](fuzz-testing.md) --> 
 
 
-<!--   ### Week6 Spring 2025 (May-7)  --> 
+<!--   ### Week6 
 
 ---
 
-### Week7 Spring 2025 (May-12) 
+### Week7 
 * Unit: [Scrum project management](scrum.md) 
 * Unit: [Querier parsing: expressions](querier-expressions.md)
 * Optional: [Querier parsing: chopping a string into sub-strings](querier-chop.md)
@@ -195,7 +201,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 <!-- --- -->
 
-### Week7 Spring 2025 (May-14) 
+### Week7 
 <!-- ### Oct-30 Fall 2024 -->
 * Unit: [Protecting the main branch](protect-main.md)
 * Unit: [Git - merge conflicts](git-conflict.md)
@@ -206,7 +212,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Week8 Spring 2025 
+### Week8 
 * Unit: [Teamwork](teams.md)
 
 
