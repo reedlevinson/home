@@ -5,7 +5,7 @@ This page is an index of individual knowledge units.
 If you prefer to see all units, or want to search across all units,
 check the [single-page version](all.md).
 
-You can find all the examples in the [examples repo](https://github.com/CS50DartmouthSP25/examples).
+You can find all the examples in the [examples repo](https://github.com/CS50DartmouthWI25/examples).
 
 Some units are marked as optional, meaning you can skip over them and return to them if you are interested or need to learn more about that topic.
 **Caveat**: these notes will not cover every detail.
@@ -14,17 +14,11 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-
-
+### Week 1
 
 ---
 
-<!-- ### Sep-16 Fall 2024 -->
-### Week1 
----
-
-### Day 1
-
+### Jan 7
 * Unit: [Welcome to CS50!](overview.md)
 * Unit: [Introduction to Unix](intro-unix.md)
 * History: [Origin of Unix](hist-unix.md)
@@ -34,11 +28,9 @@ Like any budding hacker you need to do some experimenting, find information to f
 * Unit: [Unix filesystem](bash-files.md)
 * History: [The first remote access to a computer](hist-stibitz.md)
 
-
 ---
 
-### Day 2
-
+### Jan 9
 * Unit: [Standard input and output](bash-stdin-out.md)
 * Unit: [Special characters, quoting, and sed](bash-quoting.md)
 * Unit: [Shell scripts and variables](bash-script.md)
@@ -46,32 +38,23 @@ Like any budding hacker you need to do some experimenting, find information to f
 * History: [Unix pipes](hist-pipes.md)
 * Optional: [MacOS tip](macos.md)
 * Optional: [Copying files to and from plank](scp.md)
-
-
----
-
-### Week2 
-
----
-
-### Day 1
 * Unit: [Shell scripts and conditional expressions](bash-conditional.md)
 * Unit: [Looping in shell](bash-loops.md)
 * Unit: [Shell 'while' loops](bash-while.md)
 * Optional: [Shell tips and tricks](bash-tips.md)
 * History: [Origin of "Artificial Intelligence"](hist-ai.md)
 
+
 ---
 
-### Day 2
+### Week 2
 
+---
+
+### Jan 14
 * Unit: [Git concepts and commands](git.md)
 * Reading: [Git reference and reading](read-git.md)
 * Reading: [GitHub quick markdown guide](read-git2.md)
-
----
-
-### Week2 
 * Reading: [C programming](read-c1.md)
 * Unit: [Introduction to C](c-intro.md)
 * Unit: [The C compilation process](c-compile.md)
@@ -83,6 +66,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
+### Jan 16
 * Unit: [C - types](c-types.md)
 * Unit: [C - global and local scopes](c-scopes.md)
 * Unit: [C - strings](c-string.md)
@@ -91,10 +75,6 @@ Like any budding hacker you need to do some experimenting, find information to f
 * Optional: [C library - random numbers](random.md)
 * Optional: [C - control flow](c-flow.md)
 * History: [BASIC invented here](hist-basic.md)
-
-
----
-### Week3 
 * Reading: [C programming, memory allocation, data structures](read-c2.md)
 * Unit: [Memory, pointers, and malloc](memory.md)
 * Unit: [Dynamic memory allocation](malloc.md)
@@ -105,18 +85,19 @@ Like any budding hacker you need to do some experimenting, find information to f
 * Optional: [Linux bugs](read-linux-bugs.md)
 * History: [Why do we call it a 'core dump'?](core-memory.md)
 
+---
+
+### Week 3
 
 ---
 
+### Jan 21
 * Unit: [C - arrays of pointers and more](c-arrays.md)
 * Unit: [Parsing command-line arguments](parseArgs.md)
 * Unit: [Structs and linked lists](structs.md)
 * Reading: [Background on linked lists](read-linked-lists.md)
 * Optional: [Binary trees in C](trees.md)
 
-
----
-### Week3 
 * Unit: [Modules and Makefiles](makefiles1.md)
 * Unit: [More about make and Makefiles](makefiles2.md)
 * Unit: [Tips about Makefiles](makefiles-tips.md)
@@ -129,26 +110,31 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
+### Jan 23
 * Unit: [Modular data structures in C](modules.md)
 * History: [President Kemeny on "Computers and Values”, May 1984](kemeny.md)
 
-
----
-### Week4 
 * Unit: [Iterators](iterators.md)
 * Unit: [Cohesion and coupling](cohesion.md)
+
 ---
 
+### Week 4
+
+---
+
+### Jan 28
 * Unit: [Debugging techniques and 'gdb'](gdb.md)
 * Reading: [Bugs and debugging](read-bugs.md)
 
+* Unit: [Valgrind, for debugging memory errors](valgrind.md)
+
 
 ---
-<!-- ### Oct-11 Fall 2024 -->
-### Week4 
+
+### Jan 30
 * Unit: [Building and using libraries with Makefiles](libraries.md)
 
----
 * Reading: [Testing and debugging](read-test.md)
 * Unit: [Testing - why?](testing-intro.md)
 * Unit: [Unit testing - bag](testing-bag.md)
@@ -159,22 +145,21 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-<!-- ### Oct-14 Fall 2024-->
-### Week5 
+### Week 5
+
+---
+
+### Feb 4
 * Unit: [Searching The Web](search.md)
 * Unit: [TSE Crawler requirements and design](crawler.md)
 * Reading: [Searching the web](read-search.md)
 * Optional: [Tricks for logging progress](crawler-logging.md)
 
----
-* Unit: [Valgrind, for debugging memory errors](valgrind.md)
 
-### Week5 
+---
+
+### Feb 6
 * Unit: [Advanced gdb](advgdb.md)
-
-
----
-
 * Unit: [Software design methodology](design.md)
 * Reading: [Practical programmer tips](read-design.md)
 * Reading: [More tips about coding](read-coding.md)
@@ -182,29 +167,37 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-<!-- ### Oct-21 Fall 2024 --> 
-### Week6 
+### Week 6
+
+### Feb 11
 * Unit: [Indexer Design](indexer.md)
+* Reading: [fuzz testing and other techniques](fuzz-testing.md)
 
-<!-- * Reading: [fuzz testing and other techniques](fuzz-testing.md) --> 
-
-
-<!--   ### Week6 
 
 ---
 
-### Week7 
-* Unit: [Scrum project management](scrum.md) 
+### Feb 13
 * Unit: [Querier parsing: expressions](querier-expressions.md)
 * Optional: [Querier parsing: chopping a string into sub-strings](querier-chop.md)
 * Optional: [Documentation](documentation.md)
+* Unit: [Scrum project management](scrum.md)
+
+
+---
+
+### Week 7
+
+---
+
+### Feb 18
 * Unit: [TSE Querier (demo)](querier.md)
 * Unit: [Testing querier](querier-testing.md)
+* Unit: [Teamwork](teams.md)
 
-<!-- --- -->
 
-### Week7 
-<!-- ### Oct-30 Fall 2024 -->
+---
+
+### Feb 20
 * Unit: [Protecting the main branch](protect-main.md)
 * Unit: [Git - merge conflicts](git-conflict.md)
 * Unit: [Git flow](git-flow.md)
@@ -212,16 +205,14 @@ Like any budding hacker you need to do some experimenting, find information to f
 * Reading: [Git-flow tutorials](read-git-flow.md)
 * Optional: [nCurses](ncurses.md)
 
----
-
-### Week8 
-* Unit: [Teamwork](teams.md)
-
 
 ---
 
-<!-- ### Nov-04 Fall 2024 --> 
-### miscellaneous
+### Week 8
+
+---
+
+### Feb 25
 * Extra: [Reading: Networking](read-network.md)
 * Extra: [Socket programming and TCP](sockets.md)
 * Extra: [UDP sockets](udp.md)
