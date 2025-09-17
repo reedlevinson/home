@@ -52,6 +52,8 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ### Week2 
 
+---
+
 ### Day 1
 * Unit: [Shell scripts and conditional expressions](bash-conditional.md)
 * Unit: [Looping in shell](bash-loops.md)
