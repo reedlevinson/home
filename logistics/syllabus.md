@@ -41,7 +41,7 @@ A `pdf` version of the schedule is available [for section 01](https://github.com
 -->
 ### <a id="slack">Slack</a>
 
-From our Canvas page you can join the [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) workspace for our class: [here's how](./systems.md#slack-setup). This workspace will be the primary place for engagement with one another, our TAs and LFs, and the instructor outside of class.
+From our Canvas page (on the left menu) you can join the Slack workspace for our class: [here's how](./systems.md#slack-setup). This workspace will be the primary place for engagement with one another, our TAs and LFs, and the instructor outside of class.
 
 The teaching team will make announcements via the `#general` channel on Slack. You can use Slack channels to interact with your team, to ask questions about the assignments or course material, and to share content (and a bit of fun) related to the course. Some important points about seeking CS50 help over Slack:
 
@@ -163,7 +163,7 @@ To use an extension, place the following (including the back-tics) at the top of
 
 ### Late assignments
 
-This is a challenging course, so self-discipline and planning will be key to your success. In short, _Start Early_! Remember, all due dates and times are posted on the Canvas (https://canvas.dartmouth.edu/courses/71415) calendar.
+This is a challenging course, so self-discipline and planning will be key to your success. In short, _Start Early_! Remember, all due dates and times are posted on the Canvas calendar.
 
 Late lab assignments will be penalized 10 points for each 24-hour period they are late, up to 72 hours (taking any extension into account). For example, if a Lab is due at 2200 (10PM) EDT on the 12th and it is turned in at 1AM EDT on the 13th, the highest possible score for that lab will be reduced by 10 points.
 
@@ -200,7 +200,7 @@ Late lab assignments will be penalized 10 points for each 24-hour period they ar
 - Attend class
 - Engage in course activities in class and on Slack.
 - Read/watch the knowledge units, and skim the suggested reading.
-- Pay attention to [Slack](https://dartmouth.enterprise.slack.com/archives/C08GKBR7Z7Z/) for all announcements and discussions.
+- Pay attention to Slack for all announcements and discussions.
 - Code the Labs and the Project and submit them on time.
 - Engage fully with your final project team.
 - Strive to produce well-designed, well-documented, correct, well-tested, well-styled code.

@@ -1,4 +1,4 @@
-# Computer Science 50 (Spring 2025)
+# Computer Science 50 (Fall 25)
 
 All course content is maintained in this Git repository -- including history of additions and changes.
 
