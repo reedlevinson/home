@@ -12,13 +12,14 @@ Some units are marked as optional, meaning you can skip over them and return to 
 You will also need to view the videos, read man pages and suggested references, and explore related websites.
 Like any budding hacker you need to do some experimenting, find information to fill any gaps in your knowledge, and ask us for help if you're still stuck.
 
+The schedule below is tentative and subject to change
 ---
 
 ### Week 1
 
 ---
 
-### Jan 7
+### Day 1
 * Unit: [Welcome to CS50!](overview.md)
 * Unit: [Introduction to Unix](intro-unix.md)
 * History: [Origin of Unix](hist-unix.md)
@@ -30,7 +31,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Jan 9
+### Day 2
 * Unit: [Standard input and output](bash-stdin-out.md)
 * Unit: [Special characters, quoting, and sed](bash-quoting.md)
 * Unit: [Shell scripts and variables](bash-script.md)
@@ -51,7 +52,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Jan 14
+### Day 1
 * Unit: [Git concepts and commands](git.md)
 * Reading: [Git reference and reading](read-git.md)
 * Reading: [GitHub quick markdown guide](read-git2.md)
@@ -66,7 +67,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Jan 16
+### Day 2
 * Unit: [C - types](c-types.md)
 * Unit: [C - global and local scopes](c-scopes.md)
 * Unit: [C - strings](c-string.md)
@@ -91,7 +92,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Jan 21
+### Day 1
 * Unit: [C - arrays of pointers and more](c-arrays.md)
 * Unit: [Parsing command-line arguments](parseArgs.md)
 * Unit: [Structs and linked lists](structs.md)
@@ -110,7 +111,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Jan 23
+### Day 2
 * Unit: [Modular data structures in C](modules.md)
 * History: [President Kemeny on "Computers and Values”, May 1984](kemeny.md)
 
@@ -123,7 +124,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Jan 28
+### Day 1
 * Unit: [Debugging techniques and 'gdb'](gdb.md)
 * Reading: [Bugs and debugging](read-bugs.md)
 
@@ -132,7 +133,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Jan 30
+### Day 2
 * Unit: [Building and using libraries with Makefiles](libraries.md)
 
 * Reading: [Testing and debugging](read-test.md)
@@ -149,7 +150,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Feb 4
+### Day 1
 * Unit: [Searching The Web](search.md)
 * Unit: [TSE Crawler requirements and design](crawler.md)
 * Reading: [Searching the web](read-search.md)
@@ -158,7 +159,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Feb 6
+### Day 2
 * Unit: [Advanced gdb](advgdb.md)
 * Unit: [Software design methodology](design.md)
 * Reading: [Practical programmer tips](read-design.md)
@@ -169,14 +170,14 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ### Week 6
 
-### Feb 11
+### Day 1
 * Unit: [Indexer Design](indexer.md)
 * Reading: [fuzz testing and other techniques](fuzz-testing.md)
 
 
 ---
 
-### Feb 13
+### Day 2
 * Unit: [Querier parsing: expressions](querier-expressions.md)
 * Optional: [Querier parsing: chopping a string into sub-strings](querier-chop.md)
 * Optional: [Documentation](documentation.md)
@@ -189,7 +190,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Feb 18
+### Day 1
 * Unit: [TSE Querier (demo)](querier.md)
 * Unit: [Testing querier](querier-testing.md)
 * Unit: [Teamwork](teams.md)
@@ -197,7 +198,7 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Feb 20
+### Day 2
 * Unit: [Protecting the main branch](protect-main.md)
 * Unit: [Git - merge conflicts](git-conflict.md)
 * Unit: [Git flow](git-flow.md)
@@ -208,11 +209,11 @@ Like any budding hacker you need to do some experimenting, find information to f
 
 ---
 
-### Week 8
+### Miscellaneous
 
 ---
 
-### Feb 25
+### Day 1
 * Extra: [Reading: Networking](read-network.md)
 * Extra: [Socket programming and TCP](sockets.md)
 * Extra: [UDP sockets](udp.md)
