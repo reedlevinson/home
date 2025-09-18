@@ -21,7 +21,7 @@ The first few weeks of this course are a crash course in Unix and C. After that,
 We will be "flipping" the course this term. There will be very few
 lectures. This means
 
-- you will have [knowledge units](https://github.com/CS50DartmouthFA25/home/blob/main/knowledge) with reading and videos that are to be completed _before_ each class.
+- you will have [knowledge units](https://github.com/CS50DartmouthFA2025/home/blob/main/knowledge) with reading and videos that are to be completed _before_ each class.
 
 - classtime will consist of various activities based on that pre-class work that you will work on with your team. Your class attendance and participation in the activities will count for up to 20% of each of the six lab assignments (see [grading](#grading)).
 
@@ -37,7 +37,7 @@ If you have questions about the Learning Fellow Program in general, please visit
 ## <a id="schedule">Schedule</a>
 
 <!-- 
-A `pdf` version of the schedule is available [for section 01](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/Schedule-S1.pdf)).
+A `pdf` version of the schedule is available [for section 01](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/Schedule-S1.pdf)).
 -->
 ### <a id="slack">Slack</a>
 
@@ -73,9 +73,9 @@ After the first day of class, you will be assigned to a 3 or 4-person team. Team
 ## Assignments
 
 All assignments will be completed on the Thayer Linux system
-`bablylon1.thayer.dartmouth.edu`, with code managed and shared in [GitHub](https://github.com/CS50DartmouthFA25).
+`bablylon1.thayer.dartmouth.edu`, with code managed and shared in [GitHub](https://github.com/CS50DartmouthFA2025).
 
-See the [Systems](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/systems.md) page for detail.
+See the [Systems](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/systems.md) page for detail.
 
 ### Labs
 

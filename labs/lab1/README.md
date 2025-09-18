@@ -29,7 +29,7 @@ It will look something like this, assuming your GitHub username is XXXXX, and ab
 
 ```
 	$ cd cs50-dev/
-	$ git clone git@github.com:CS50DartmouthFA25/lab1-XXXXX.git
+	$ git clone git@github.com:CS50DartmouthFA2025/lab1-XXXXX.git
 	Cloning into 'lab1-XXXXX'...
 ```
 
@@ -149,7 +149,7 @@ You should add **only** these three files to your repo:
 git add README.md top10.sh summarize.sh
 ```
 
-See the [lab-submission instructions](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/submit.md) for details of how to submit your lab.
+See the [lab-submission instructions](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/submit.md) for details of how to submit your lab.
 
 ## Hints
 
@@ -171,8 +171,8 @@ It is helpful to remember that `^` anchors a pattern to the start of a line and 
 
 ## Markdown example
 
-[Read about Markdown](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/systems.md#markdown), and about [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables).
-If you want to preview a Markdown file with a desktop app, you'll have to either [scp](https://github.com/CS50DartmouthFA25/home/blob/main/knowledge/units/scp.md) the file to your laptop, or copy-paste from your ssh terminal into an empty window in one of those apps.
+[Read about Markdown](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/systems.md#markdown), and about [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables).
+If you want to preview a Markdown file with a desktop app, you'll have to either [scp](https://github.com/CS50DartmouthFA2025/home/blob/main/knowledge/units/scp.md) the file to your laptop, or copy-paste from your ssh terminal into an empty window in one of those apps.
 Another great tool is [HackMD](https://hackmd.io).
 We will view your `README.md` on GitHub.com, so make sure it looks good there.
 

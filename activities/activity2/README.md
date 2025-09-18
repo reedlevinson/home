@@ -66,7 +66,7 @@ Now, **working in your group (perhaps one person sharing screen)**, answer the f
    The result is: 4
    ```
 
-   Hint: Use the `shift` command (see [bash tips and tricks](https://github.com/CS50DartmouthFA25/home/blob/main/knowledge/units/bash-tips.md)
+   Hint: Use the `shift` command (see [bash tips and tricks](https://github.com/CS50DartmouthFA2025/home/blob/main/knowledge/units/bash-tips.md)
 <!--   https://github.com/CS50DartmouthWI24/home/blob/main/knowledge/units/bash-tips.md)).-->
 
 8. (HARD!)

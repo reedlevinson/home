@@ -11,5 +11,5 @@
 
 Please note:
 
-* the [CS50 coding style](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/style.md) in C assignments
-* the [instructions for submitting Labs](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/submit.md)
+* the [CS50 coding style](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/style.md) in C assignments
+* the [instructions for submitting Labs](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/submit.md)

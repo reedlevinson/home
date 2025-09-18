@@ -80,7 +80,7 @@ Thus, for example,
 The lab specs will often provide more specific instructions.
 
 Use of a good `.gitignore` file and care when using `git add` will help avoid the addition of extraneous files.
-Most lab starter kits come with a `.gitignore` file, which you can extend; we also include CS50-recommended rules as [.gitignore](https://github.com/CS50DartmouthFA25/examples/blob/main/.gitignore) in the examples repo.
+Most lab starter kits come with a `.gitignore` file, which you can extend; we also include CS50-recommended rules as [.gitignore](https://github.com/CS50DartmouthFA2025/examples/blob/main/.gitignore) in the examples repo.
 
 ---
 
@@ -107,7 +107,7 @@ git push --set-upstream origin main
 
 That's fine - just copy / paste / run the supplied `git` command.
 
-If you get an error about git being unable to open your editor, make sure you have [configured a default editor](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/systems.md#set-editor).
+If you get an error about git being unable to open your editor, make sure you have [configured a default editor](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/systems.md#set-editor).
 
 > [!WARNING]
 > Check to ensure you have no [missing](#missing) files and no [extraneous](#extra) files.

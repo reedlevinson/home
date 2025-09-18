@@ -6,7 +6,7 @@ After all the blanks are filled, the first player reads the story aloud, which c
 
 Let's look at a program that allows you to play Mad Libs!
 All the files you need are in the examples directory `~/cs50-dev/shared/examples`,
-also visible in the [examples repo](https://github.com/CS50DartmouthFA25/examples).
+also visible in the [examples repo](https://github.com/CS50DartmouthFA2025/examples).
 
 Answer the following in a Markdown file and one team member should upload it to Canvas for Activity 5 when you are finished.
 

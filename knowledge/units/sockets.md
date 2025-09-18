@@ -268,7 +268,7 @@ Otherwise, before calling the `accept()` function, the `cliaddr` parameter has t
 
 ## <a id="tcp-example">TCP client/server example</a>
 
-In this example, [client-server](https://github.com/CS50DartmouthFA25/examples/blob/main/client-server), we see a basic TCP client that can talk to our basic TCP server.
+In this example, [client-server](https://github.com/CS50DartmouthFA2025/examples/blob/main/client-server), we see a basic TCP client that can talk to our basic TCP server.
 
 This code demonstrates
 
@@ -283,7 +283,7 @@ This code demonstrates
 
 ## <a id="http-example">HTTP-over-TCP client/server example</a>
 
-In this example, [client-server-http](https://github.com/CS50DartmouthFA25/examples/blob/main/client-server-http), we enhance the basic example to support HTTP.
+In this example, [client-server-http](https://github.com/CS50DartmouthFA2025/examples/blob/main/client-server-http), we enhance the basic example to support HTTP.
 The client can connect to our HTTP server, or to real HTTP servers.
 The server can serve our basic HTTP client, or real browsers.
 

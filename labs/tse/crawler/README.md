@@ -4,7 +4,7 @@ In this lab you'll begin the Tiny Search Engine (TSE) by coding the *Crawler* ac
 * [Design Spec](DESIGN.md)
 * [Implementation Spec](IMPLEMENTATION.md)
 
-Grading will focus on [CS50 coding style](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/style.md) - including consistent formatting, selection of identifier names, and use of meaningful comments - in addition to correctness, testing, and documentation.
+Grading will focus on [CS50 coding style](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/style.md) - including consistent formatting, selection of identifier names, and use of meaningful comments - in addition to correctness, testing, and documentation.
 
 ***Your C code must compile without producing any compiler warnings.***  You will lose points if the compiler produces warnings when using our CS50-standard compiler flags.
 
@@ -74,18 +74,18 @@ and your **common** directory should contain the following files:
 If you finish Lab 4 early, we encourage you to begin work on Lab 5 or Lab 6.
 Your Lab 4 submission may contain a partly-completed indexer or querier; the graders will ignore those files, but must be able to build your crawler *from the top-level directory* without compilation errors and test your crawler without run-time errors.
 
-To submit, read the [Lab submission instructions](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/submit.md).
+To submit, read the [Lab submission instructions](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/submit.md).
 
 # Hints and tips
 
-There are tips and a Crawler demo in the [unit about crawler](https://github.com/CS50DartmouthFA25/home/blob/main/knowledge/units/crawler.md).
+There are tips and a Crawler demo in the [unit about crawler](https://github.com/CS50DartmouthFA2025/home/blob/main/knowledge/units/crawler.md).
 
 ### libcs50
 
 We provide several modules in the `libcs50` directory, which compiles to a library `libcs50.a` you can link with your crawler.
 *You shall not change any of our code,*  but you may drop in your `set.c`, `counters.c`, `hashtable.c` files from Lab 3.
 The top-level Makefile auto-detects the presence of your `set.c` and will build the library with your implementation... or if it is absent, will simply use a pre-compiled library we provide.
-See the [unit about libraries](https://github.com/CS50DartmouthFA25/home/blob/main/knowledge/units/libraries.md).
+See the [unit about libraries](https://github.com/CS50DartmouthFA2025/home/blob/main/knowledge/units/libraries.md).
 
 **Pay close attention to the `webpage` module,**
 especially the memory contract implemented by `webpage_new` and `webpage_delete`.
@@ -118,4 +118,4 @@ Although we encourage you to test your crawler using a variety of tests, your `t
 
 ### Use valgrind and gdb
 
-We've provided information about [gdb](https://github.com/CS50DartmouthFA25/home/blob/main/knowledge/units/gdb.md) and [valgrind](https://github.com/CS50DartmouthFA25/home/blob/main/knowledge/units/valgrind.md); make use of them.
+We've provided information about [gdb](https://github.com/CS50DartmouthFA2025/home/blob/main/knowledge/units/gdb.md) and [valgrind](https://github.com/CS50DartmouthFA2025/home/blob/main/knowledge/units/valgrind.md); make use of them.

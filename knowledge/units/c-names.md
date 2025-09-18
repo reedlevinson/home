@@ -18,5 +18,5 @@ For names that represent a compound word, you may encounter several naming style
 
 Any programming project should pick a naming style and *stick with it*.
 
-**In CS50 we define a specific naming convention in our [Coding Style](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/style.md),**
+**In CS50 we define a specific naming convention in our [Coding Style](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/style.md),**
 and your code is expected to follow that style.
