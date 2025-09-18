@@ -19,7 +19,7 @@ The following prototypes should be marked 'static', since they are internal-use 
 
 * *In a file with global variables, particularly if they are not wrapped in a struct:*
 Global variables are always risky, and I *strongly* suggest wrapping them into a single struct so their use throughout the code becomes immediately clear that they are globals, not some local variable.
-Recall the [hint](https://github.com/CS50DartmouthSP25/home/blob/main/project#global-variables) about global variables.
+Recall the [hint](https://github.com/CS50DartmouthFA25/home/blob/main/project#global-variables) about global variables.
 
 * *Before a local (static) function that has no header comment:*
 Local functions need good header comments because they are not described in a header file.
@@ -48,13 +48,13 @@ When you need a string variable of a fixed size, there is no need for malloc.  J
 You use malloc when it is not necessary; e.g., to create a message string, it would be sufficient to define one local variable `char message[message_MaxBytes]` and sprintf into that string.  Such a string is (by definition) big enough for any message in the game.  No malloc/free needed.
 
 * *In cases where code parses the `seed` parameter with `atoi()` or similar:*
-`atoi`is inadequate for parsing an integer from user input.  Recall the trick we learned: [atoi.c](https://github.com/CS50DartmouthSP25/examples/blob/main/atoi.c)
+`atoi`is inadequate for parsing an integer from user input.  Recall the trick we learned: [atoi.c](https://github.com/CS50DartmouthFA25/examples/blob/main/atoi.c)
 
 * *In handleMessage code to parse messages:*
-Recall the [hint](https://github.com/CS50DartmouthSP25/home/blob/main/project#parsing-messages) about parsing messages.
+Recall the [hint](https://github.com/CS50DartmouthFA25/home/blob/main/project#parsing-messages) about parsing messages.
 
 * *In code with complex approaches to convert numbers to letters:*
-Recall the [hint](https://github.com/CS50DartmouthSP25/home/blob/main/project#converting-from-letters-to-numbers-and-back) about translating numbers to letters, and letters to numbers.
+Recall the [hint](https://github.com/CS50DartmouthFA25/home/blob/main/project#converting-from-letters-to-numbers-and-back) about translating numbers to letters, and letters to numbers.
 
 * Your code often uses "magic numbers", i.e., literal integer constants that just happen to be the right number for something, but often without explanation.  Such practice is risky because the code is less readable and more fragile to future changes.  Define a named constant for such numbers, or find another approach.
 

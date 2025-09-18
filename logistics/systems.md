@@ -55,7 +55,7 @@ If you have any problems or questions, Slack offers [video tutorials](https://sl
 
 You will do all your programming and lab submission on Linux servers at Dartmouth's Thayer School of Engineering.
 <!-- @CHANGEME - insert term-specific repo link -->
-To set yourself up, follow these [instructions](https://github.com/CS50DartmouthSP25/cs50-dev).
+To set yourself up, follow these [instructions](https://github.com/CS50DartmouthFA25/cs50-dev).
 
 The primary CS50 server is called `plank.thayer.dartmouth.edu`; you may also use equivalent servers called `babylonX.thayer.dartmouth.edu`, where `X` is 1 through 8.
 (You can check their status [here](https://cluster-usage.thayer.dartmouth.edu).)

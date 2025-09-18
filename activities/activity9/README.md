@@ -6,10 +6,10 @@ Put your team's answers into a Markdown file and upload it to Canvas for Activit
 
 1. On plank, copy the classroom demo code in the `shared` examples directory into a new directory that you can write in:
 
-- [bag8.c](https://github.com/CS50DartmouthSP25/examples/blob/main/bag8.c) 
-- [bag8.h](https://github.com/CS50DartmouthSP25/examples/blob/main/bag8.h) 
-- [readlinep.c](https://github.com/CS50DartmouthSP25/examples/blob/main/readlinep.c) 
-- [readlinep.h](https://github.com/CS50DartmouthSP25/examples/blob/main/readlinep.h) 
+- [bag8.c](https://github.com/CS50DartmouthFA25/examples/blob/main/bag8.c) 
+- [bag8.h](https://github.com/CS50DartmouthFA25/examples/blob/main/bag8.h) 
+- [readlinep.c](https://github.com/CS50DartmouthFA25/examples/blob/main/readlinep.c) 
+- [readlinep.h](https://github.com/CS50DartmouthFA25/examples/blob/main/readlinep.h) 
 
 How would you extend the *bag* module so it keeps track of the number of items 
 in the bag? Would it be better to code it directly into `bag` or should you 

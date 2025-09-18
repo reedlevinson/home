@@ -55,7 +55,7 @@ You are provided a primary markdown file, [`catalog.md`](./catalog.md), to which
 
     a. go to the new repository **on GitHub**  
     b. make sure the new repo is private.  
-    c. set GitHub to [protect the main branch](https://github.com/CS50DartmouthSP25/home/blob/main/knowledge/units/protect-main.md).  
+    c. set GitHub to [protect the main branch](https://github.com/CS50DartmouthFA25/home/blob/main/knowledge/units/protect-main.md).  
     d. invite other team members to join the repo with the  `maintain` role:  
 
     ```  

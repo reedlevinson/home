@@ -1,4 +1,4 @@
-Ok, if you skipped it last time, now you really *must* read the [CS50 coding style guidelines](https://github.com/CS50DartmouthSP25/home/blob/main/logistics/style.md).
+Ok, if you skipped it last time, now you really *must* read the [CS50 coding style guidelines](https://github.com/CS50DartmouthFA25/home/blob/main/logistics/style.md).
 Style matters.
 
 The rest of this reading is short and is worth your while.
