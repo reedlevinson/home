@@ -23,7 +23,7 @@ You will lose points if the compiler produces warnings when using our CS50-stand
 
 :point_right:
 
-1. Initialize a git repo
+## Initialize a new git repo
 - First, create a lab2 folder *on plink* and create a `README.md` file in it. Indicate your name in the first line. You will use this file to provide any overall comments you want to convey to the grader.
 - Initialize lab2 as a git repository. What command did you use for that?
 - Make sure that README.md is tracked. What command did you use for that?
