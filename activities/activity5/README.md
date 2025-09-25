@@ -5,7 +5,7 @@ One player sees the story and asks the other player, who cannot see the story, t
 After all the blanks are filled, the first player reads the story aloud, which can be pretty funny!
 
 Let's look at a program that allows you to play Mad Libs!
-All the files you need are in the examples directory, visible in the [class repo](https://github.com/CS50DartmouthFA2025/home/tree/main/examples).
+All the files you need are in the examples directory, visible in the [course's home repo](https://github.com/CS50DartmouthFA2025/home/tree/main/examples).
 
 Answer the following in a Markdown file and one team member should upload it to Canvas for Activity 5 when you are finished.
 
