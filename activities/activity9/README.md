@@ -4,7 +4,7 @@ Put your team's answers into a Markdown file and upload it to Canvas for Activit
 
 ## EASY
 
-1. On plank, copy the classroom demo code in the `shared` examples directory into a new directory that you can write in:
+1. On plink, copy the classroom demo code in the `shared` examples directory into a new directory that you can write in:
 
 - [bag8.c](https://github.com/CS50DartmouthFA2025/examples/blob/main/bag8.c) 
 - [bag8.h](https://github.com/CS50DartmouthFA2025/examples/blob/main/bag8.h) 

@@ -51,5 +51,5 @@ Complete this step **before the next class meeting**.
 Read through the [Systems](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/systems.md) page.
 Most of you use MacOS or Windows -- not Linux -- but in this course we will program exclusively on Linux.
 For consistency, we will all use a Linux server managed by our colleagues in the Thayer School of Engineering.
-This machine is known as `plank.thayer.dartmouth.edu`.
+This machine is known as `plink.thayer.dartmouth.edu`.
 Follow the instructions in this [GitHub repository](https://github.com/CS50DartmouthFA2025/cs50-dev) to get yourself ready.

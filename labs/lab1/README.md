@@ -129,7 +129,7 @@ See the [lab-submission instructions](https://github.com/CS50DartmouthFA2025/hom
 ## Hints
 
 You will find some of the following commands useful; use `man cmd` to read about any command.
-It's best to run `man` on `plank` (not your Mac, or other Unix machine) so you are sure to get the manual for the version of the command where your script will run.
+It's best to run `man` on `plink` (not your Mac, or other Unix machine) so you are sure to get the manual for the version of the command where your script will run.
 
 * `less`
 * `cut`

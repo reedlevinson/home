@@ -136,18 +136,18 @@ Before continuing, follow these [instructions](https://github.com/CS50DartmouthF
 We can log into Thayer's Linux servers over the Internet, using the **s**ecure **sh**ell (`ssh`) command.
 The `ssh` command establishes an encrypted connection between your laptop and the other server.
 
-Below, I remotely log in as user `d31379t` (my Dartmouth NetID) to the server named `plank` by giving its full Internet hostname - `plank.thayer.dartmouth.edu`.
+Below, I remotely log in as user `d31379t` (my Dartmouth NetID) to the server named `plink` by giving its full Internet hostname - `plink.thayer.dartmouth.edu`.
 
 ```
-[MacOS:~]$ ssh d31379t@plank.thayer.dartmouth.edu
-d31379t@plank.thayer.dartmouth.edu's password: 
+[MacOS:~]$ ssh d31379t@plink.thayer.dartmouth.edu
+d31379t@plink.thayer.dartmouth.edu's password: 
 
   << You are currently using 4.01M of your 5.00G home directory quota. >>
 
-d31379t@plank:~$ echo hello class!
+d31379t@plink:~$ echo hello class!
 hello class!
-d31379t@plank:~$ logout
-Connection to plank.thayer.dartmouth.edu closed.
+d31379t@plink:~$ logout
+Connection to plink.thayer.dartmouth.edu closed.
 [MacOS:~]$ 
 ```
 
@@ -158,7 +158,7 @@ It asked for my password, which is my usual Dartmouth password.
 The `echo` command takes an optional list of arguments, and simply prints them out.
 Here I gave it two arguments.
 
-I then used the command `logout` to leave, or "log out of" the `plank` system.
+I then used the command `logout` to leave, or "log out of" the `plink` system.
 
 > It is good practice to `exit` or `logout` of any shell window, rather than just closing the window... you may need to properly exit background jobs or unsaved changes.
 > The shell will warn you if you have left any background jobs running.
@@ -167,25 +167,25 @@ Let's log back in.
 Notice how it sometimes pauses quite a while after entering your password.
 
 ```
-[MacOS:~]$ ssh d31379t@plank.thayer.dartmouth.edu
-d31379t@plank.thayer.dartmouth.edu's password: 
+[MacOS:~]$ ssh d31379t@plink.thayer.dartmouth.edu
+d31379t@plink.thayer.dartmouth.edu's password: 
 
   << You are currently using 4.01M of your 5.00G home directory quota. >>
 
-d31379t@plank:~$  echo The presence of this file disables login notification of your disk-quota usage. >  .notfsquota
-d31379t@plank:~$ 
+d31379t@plink:~$  echo The presence of this file disables login notification of your disk-quota usage. >  .notfsquota
+d31379t@plink:~$ 
 ```
 
-That pause was due to plank computing my disk utilization.
+That pause was due to plink computing my disk utilization.
 To save time, I created a new file `.notfsquota` which, when present, causes the login procedure to skip that quota calculation.
 (I'm still subject to the quota, but I really don't care to see it every time I log in!)
 Here, the `>` redirects the output of `echo` to the file named next; if that file does not exist, it is created; if it exists, it is overwritten.
 We can see the contents of that file with the `cat` command:
 
 ```bash
-d31379t@plank:~$ cat .notfsquota
+d31379t@plink:~$ cat .notfsquota
 The presence of this file disables login notification of your disk-quota usage.
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 Why `cat`?
@@ -197,19 +197,19 @@ Some will run too long - perhaps printing too much output; you can stop (kill) t
 One silly program, `yes`, just prints an infinite sequence of `y` characters until you kill it:
 
 ```bash
-d31379t@plank:~$ yes
+d31379t@plink:~$ yes
 y
 y
 y
 ^C
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 Some commands ask for your input, and continue to read input until they read an "end of file" (EOF); if they are reading from your keyboard, you can cause the program to detect an EOF by typing control-D (`^D`) at the beginning of an input line.
 Below I typed three lines of text, the (`^D`) at the start of the sixth input line, to the `sort` program:
 
 ```bash
-d31379t@plank:~$ sort
+d31379t@plink:~$ sort
 sort
 dartmouth
 brown
@@ -223,7 +223,7 @@ princetonsort
 harvard
 princeton
 yale
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 
 ```
 
@@ -383,7 +383,7 @@ As another example, the format of an `ssh` command line looks like this:
 
 	ssh [options] [user@]hostname [command] [argument]...
 
-I use the command `ssh d31379t@plank.thayer.dartmouth.edu` to indicate the user and host.
+I use the command `ssh d31379t@plink.thayer.dartmouth.edu` to indicate the user and host.
 
 Note how I've described the syntax of the `ssh` command.
 Those `[ ]` brackets and `...` are not literally part of the command - you never type them!
@@ -512,9 +512,9 @@ The `PATH` variable must be defined, with a colon-separated list of pathnames wh
 Take a look at your `PATH` by asking the shell to substitute its value (`$PATH`) and pass it as an argument to the `echo` command:
 
 ```bash
-d31379t@plank:~$ echo $PATH
+d31379t@plink:~$ echo $PATH
 /thayerfs/home/d31379t/bin:/dartfs-hpc/admin/opt/el7/intel/compilers_and_libraries_2019.3.199/linux/bin/intel64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/thayerfs/apps/other:/thayerfs/apps/abaqus/bin:/thayerfs/apps/ansys/current/Framework/bin/Linux64:/thayerfs/apps/ansys/current/fluent/bin:/thayerfs/apps/cadence/bin:/thayerfs/apps/comsol/bin:/thayerfs/apps/eclipse:/thayerfs/apps/fiji:/thayerfs/apps/gams:/thayerfs/apps/idl/bin:/thayerfs/apps/julia/bin:/thayerfs/apps/maple/bin:/thayerfs/apps/mathematica/bin:/thayerfs/apps/matlab/bin:/thayerfs/apps/maya/bin:/thayerfs/apps/netgen/bin:/thayerfs/apps/paraview/bin:/thayerfs/apps/sagemath:/thayerfs/apps/synopsys/pcmstudio/bin:/thayerfs/apps/synopsys/sentaurus/bin:/thayerfs/apps/tecplot/bin:/thayerfs/apps/totalview/bin:/thayerfs/apps/turbovnc/opt/TurboVNC/bin:/thayerfs/apps/visit/bin:/thayerfs/apps/xilinx/bin
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 > Wow! Thayer really puts a lot into the Shell's search path.
@@ -523,12 +523,12 @@ Where do the `sort` and `ls` commands reside?
 Let's use another command to find out.
 
 ```bash
-d31379t@plank:~$ which sort
+d31379t@plink:~$ which sort
 sort is /usr/bin/sort
-d31379t@plank:~$ which ls
+d31379t@plink:~$ which ls
 ls is aliased to `ls -F --color=auto'
 ls is /bin/ls
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 We see that the `sort` command is actually a program stored in the file `/usr/bin/sort`.
@@ -545,11 +545,11 @@ It then searches the `PATH` to find an executable file with that name; in this c
 Below you can see the effect of running `ls` (the alias) and `/bin/ls` (the raw command, without the `-F`).
 
 ```bash
-d31379t@plank:~$ ls
+d31379t@plink:~$ ls
 bin/  cs50-dev/  dot@  go@  lib@  projects/  scripts@  staff/
-d31379t@plank:~$ /bin/ls
+d31379t@plink:~$ /bin/ls
 bin  cs50-dev  dot  go	lib  projects  scripts	staff
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 (I can't show the coloration here; try it yourself!)
@@ -577,26 +577,26 @@ A directory always contains two special files `.` (dot) and `..` (dot dot); `.` 
 In the following, I make a new directory, change my current working directory to be that new directory, create a new file in that directory, and use `ls` to explore the contents of the new directory and its parent.
 
 ```bash
-d31379t@plank:~/cs50-dev$ ls
+d31379t@plink:~/cs50-dev$ ls
 dotfiles/  README.md  shared@
-d31379t@plank:~/cs50-dev$ mkdir demo
-d31379t@plank:~/cs50-dev$ cd demo
-d31379t@plank:~/cs50-dev/demo$ echo this is a new file > README
-d31379t@plank:~/cs50-dev/demo$ ls
+d31379t@plink:~/cs50-dev$ mkdir demo
+d31379t@plink:~/cs50-dev$ cd demo
+d31379t@plink:~/cs50-dev/demo$ echo this is a new file > README
+d31379t@plink:~/cs50-dev/demo$ ls
 README
-d31379t@plank:~/cs50-dev/demo$ cat README
+d31379t@plink:~/cs50-dev/demo$ cat README
 this is a new file
-d31379t@plank:~/cs50-dev/demo$ cd ..
-d31379t@plank:~/cs50-dev$ ls 
+d31379t@plink:~/cs50-dev/demo$ cd ..
+d31379t@plink:~/cs50-dev$ ls 
 dotfiles/  demo/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls demo
+d31379t@plink:~/cs50-dev$ ls demo
 README
-d31379t@plank:~/cs50-dev$ ls -al demo
+d31379t@plink:~/cs50-dev$ ls -al demo
 total 39
 drwxr-xr-x 2 d31379t thayerusers  24 Mar 27 18:10 ./
 drwxr-xr-x 5 d31379t thayerusers 121 Mar 27 18:10 ../
 -rw-r--r-- 1 d31379t thayerusers  19 Mar 27 18:10 README
-d31379t@plank:~/cs50-dev$ 
+d31379t@plink:~/cs50-dev$ 
 ```
 
 The `-al` flags to `ls` ask for the long-format listing (`-l`) and to show all files (`-a`); more on that below.
@@ -608,23 +608,23 @@ Notice that a relative pathname can also use `.` or `..`, as in the final exampl
 
 
 ```bash
-[d31379t@plank:~/cs50-dev$ ls /thayerfs/home/d31379t
+[d31379t@plink:~/cs50-dev$ ls /thayerfs/home/d31379t
 bin/  cs50-dev/  dot@  go@  lib@  projects/  scripts@  staff/
-d31379t@plank:~/cs50-dev$ ls /thayerfs/home/d31379t/cs50-dev
+d31379t@plink:~/cs50-dev$ ls /thayerfs/home/d31379t/cs50-dev
 dotfiles/  demo/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls ~
+d31379t@plink:~/cs50-dev$ ls ~
 bin/  cs50-dev/  dot@  go@  lib@  projects/  scripts@  staff/
-d31379t@plank:~/cs50-dev$ ls ~/cs50-dev
+d31379t@plink:~/cs50-dev$ ls ~/cs50-dev
 dotfiles/  demo/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls ~/cs50-dev/demo
+d31379t@plink:~/cs50-dev$ ls ~/cs50-dev/demo
 README
-d31379t@plank:~/cs50-dev$ ls demo
+d31379t@plink:~/cs50-dev$ ls demo
 README
-d31379t@plank:~/cs50-dev$ ls ./demo
+d31379t@plink:~/cs50-dev$ ls ./demo
 README
-d31379t@plank:~/cs50-dev$ ls ../cs50-dev/demo
+d31379t@plink:~/cs50-dev$ ls ../cs50-dev/demo
 README
-d31379t@plank:~/cs50-dev$ 
+d31379t@plink:~/cs50-dev$ 
 ```
 
 You can always "go home" by simply typing `cd ~` or even just `cd`, either of which change your current working directory to home.
@@ -675,31 +675,31 @@ This behavior is called *globbing*; the shell actually replaces what you write w
 Here are some examples:
 
 ```bash
-d31379t@plank:~/cs50-dev/demo$ ls
+d31379t@plink:~/cs50-dev/demo$ ls
 game    game.o    README     test2.txt  test4.txt  test6.txt  test8.txt
 game.c  Makefile  test1.txt  test3.txt  test5.txt  test7.txt  test9.txt
-d31379t@plank:~/cs50-dev/demo$ ls game*
+d31379t@plink:~/cs50-dev/demo$ ls game*
 game  game.c  game.o
-d31379t@plank:~/cs50-dev/demo$ ls game.*
+d31379t@plink:~/cs50-dev/demo$ ls game.*
 game.c  game.o
-d31379t@plank:~/cs50-dev/demo$ ls test*txt
+d31379t@plink:~/cs50-dev/demo$ ls test*txt
 test1.txt  test3.txt  test5.txt  test7.txt  test9.txt
 test2.txt  test4.txt  test6.txt  test8.txt
-d31379t@plank:~/cs50-dev/demo$ ls test?.txt
+d31379t@plink:~/cs50-dev/demo$ ls test?.txt
 test1.txt  test3.txt  test5.txt  test7.txt  test9.txt
 test2.txt  test4.txt  test6.txt  test8.txt
-d31379t@plank:~/cs50-dev/demo$ ls test[2468].*
+d31379t@plink:~/cs50-dev/demo$ ls test[2468].*
 test2.txt  test4.txt  test6.txt  test8.txt
-d31379t@plank:~/cs50-dev/demo$ ls test[7-9].*
+d31379t@plink:~/cs50-dev/demo$ ls test[7-9].*
 test7.txt  test8.txt  test9.txt
-d31379t@plank:~/cs50-dev/demo$ ls *.*
+d31379t@plink:~/cs50-dev/demo$ ls *.*
 game.c  test1.txt  test3.txt  test5.txt  test7.txt  test9.txt
 game.o  test2.txt  test4.txt  test6.txt  test8.txt
-d31379t@plank:~/cs50-dev/demo$ echo [a-z]*    
+d31379t@plink:~/cs50-dev/demo$ echo [a-z]*    
 game game.c game.o test1.txt test2.txt test3.txt test4.txt test5.txt test6.txt test7.txt test8.txt test9.txt
-d31379t@plank:~/cs50-dev/demo$ echo [A-Z]*
+d31379t@plink:~/cs50-dev/demo$ echo [A-Z]*
 Makefile README
-d31379t@plank:~/cs50-dev/demo$ 
+d31379t@plink:~/cs50-dev/demo$ 
 ```
 
 ### Hidden files
@@ -709,7 +709,7 @@ Home directories, in particular, include many 'hidden' (but important!) files.
 The `-a` switch tells `ls` to list "all" files, including those that begin with a dot (aka, the hidden files).
 
 ```bash
-d31379t@plank:~$ ls -a
+d31379t@plink:~$ ls -a
 ./             .cache/    .gitconfig         .muttrc@     .signature@
 ../            cs50-dev/  .gitconfig-fancy@  .notfsquota  .ssh/
 .bash_history  .cshrc@    .gnupg/            .plan@       staff/
@@ -727,16 +727,16 @@ It appends an `@` to indicate the file is actually a *symbolic link*, meaning, a
 Here's an important example:
 
 ```bash
-d31379t@plank:~/cs50-dev$ ls
+d31379t@plink:~/cs50-dev$ ls
 dotfiles/  demo/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls -l shared
+d31379t@plink:~/cs50-dev$ ls -l shared
 lrwxrwxrwx 1 d31379t thayerusers 34 Mar 27 14:56 shared -> /thayerfs/courses/21spring/cosc050/
-d31379t@plank:~/cs50-dev$ ls shared/
+d31379t@plink:~/cs50-dev$ ls shared/
 examples/
-d31379t@plank:~/cs50-dev$ ls shared/examples/
+d31379t@plink:~/cs50-dev$ ls shared/examples/
 args.sh*   guess1a.sh*  guess2.sh*  guess4.sh*     shifter.sh*
 gitignore  guess1b.sh*  guess3.sh*  imagepage.sh*
-d31379t@plank:~/cs50-dev$ 
+d31379t@plink:~/cs50-dev$ 
 ```
 
 Notice how `ls -l` printed `->` and the name of the target for the `shared` symlink.
@@ -747,10 +747,10 @@ That's where we provide CS50 examples!
 No matter where your current working directory, you can always see the examples:
 
 ```bash
-d31379t@plank:~$ ls ~/cs50-dev/shared/examples/
+d31379t@plink:~$ ls ~/cs50-dev/shared/examples/
 args.sh*   guess1a.sh*  guess2.sh*  guess4.sh*     shifter.sh*
 gitignore  guess1b.sh*  guess3.sh*  imagepage.sh*
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 > How did I create that symbolic link (aka symlink)?
@@ -765,12 +765,12 @@ Back to the home directory.
 To see just the dot files, let's get clever with the shell's glob characters:
 
 ```bash
-d31379t@plank:~$ ls -ad .??*
+d31379t@plink:~$ ls -ad .??*
 .bash_history  .cshrc@     .gitconfig-fancy@  .notfsquota  .ssh/
 .bash_logout   .emacs      .gnupg/            .plan@       .subversion@
 .bashrc        .emacs.d/   .login@            .profile     .vimrc
 .cache/        .gitconfig  .muttrc@           .signature@
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 All of these "dot files" (or "dot directories") are important to one program or another; you are likely to have the following:
@@ -801,11 +801,11 @@ We can look at our home directory pathname using the `pwd` (**p**rint **w**orkin
 Let's see what we have inside our Linux box.
 
 ```bash
-d31379t@plank:~$ pwd
+d31379t@plink:~$ pwd
 /thayerfs/home/d31379t
-d31379t@plank:~$ ls
+d31379t@plink:~$ ls
 bin/  cs50-dev/  dot@  go@  lib@  projects/  scripts@  staff/
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 The tilde (`~`) above is shorthand for 'home'.
@@ -816,9 +816,9 @@ Some I see to be subdirectories, because `ls` added `/` to their names.
 What's in the `cs50-dev` subdirectory?
 
 ```bash
-d31379t@plank:~$ ls cs50-dev
+d31379t@plink:~$ ls cs50-dev
 dotfiles/  README.md  shared@
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 Notice how I used an argument to `ls` to tell it which directory to list.
@@ -826,17 +826,17 @@ I see that `cs50-dev` has a subdirectory `dotfiles`, a file `README.md`, and a *
 Let's go down into that subdirectory and look more closely.
 
 ```bash
-d31379t@plank:~$ cd cs50-dev
-d31379t@plank:~/cs50-dev$ pwd
+d31379t@plink:~$ cd cs50-dev
+d31379t@plink:~/cs50-dev$ pwd
 /thayerfs/home/d31379t/cs50-dev
-d31379t@plank:~/cs50-dev$ ls
+d31379t@plink:~/cs50-dev$ ls
 dotfiles/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls -l
+d31379t@plink:~/cs50-dev$ ls -l
 total 79
 drwxr-xr-x 2 d31379t thayerusers  159 Mar 27 14:57 dotfiles/
 -rw-r--r-- 1 d31379t thayerusers 5357 Mar 27 14:56 README.md
 lrwxrwxrwx 1 d31379t thayerusers   34 Mar 27 14:56 shared -> /thayerfs/courses/21spring/cosc050/
-d31379t@plank:~/cs50-dev$ 
+d31379t@plink:~/cs50-dev$ 
 ```
 
 I changed directory (`cd`) so now my *current working directory* is `cs50-dev`; note that `pwd` printed its longer pathname, and the shell nicely updated its prompt to remind us of our current directory.
@@ -850,9 +850,9 @@ For example, the second line says `README.md` has permissions `-rw-r--r--`, owne
 You need appropriate permissions to be able to change to a directory, list its contents, or read/write/create its files; for example, here I try to list another user's home directory:
 
 ```bash
-d31379t@plank:~$ ls /thayerfs/home/f002tzm
+d31379t@plink:~$ ls /thayerfs/home/f002tzm
 ls: cannot open directory '/thayerfs/home/f002tzm': Permission denied
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 ### Bash shell startup files
@@ -914,7 +914,7 @@ Many times you want to find a file but do not know where it is in the directory 
 The `find` command can walk a file hierarchy:
 
 ```bash
-d31379t@plank:~$ find cs50-dev
+d31379t@plink:~$ find cs50-dev
 cs50-dev/
 cs50-dev/README.md
 cs50-dev/demo
@@ -948,19 +948,19 @@ and it goes on, because `cs50-dev` is a git repository and git hides a lot of fi
 Indeed, what other git repos do I have?
 
 ```bash
-d31379t@plank:~$ find . -name .git
+d31379t@plink:~$ find . -name .git
 ./staff/.git
 ./cs50-dev/.git
 ./projects/kotz-bin-lib/.git
 ./projects/metahashcheck/.git
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 and where might I have Markdown files?
 Markdown file names (by convention) end in `.md`.
 
 ```bash
-d31379t@plank:~$ find . -name \*.md
+d31379t@plink:~$ find . -name \*.md
 ./staff/README.md
 ./staff/moss_scripts/README.md
 ./staff/grading_scripts/README.md
@@ -969,7 +969,7 @@ d31379t@plank:~$ find . -name \*.md
 ./cs50-dev/dotfiles/README.md
 ./projects/kotz-bin-lib/README.md
 ./projects/metahashcheck/README.md
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 This example uses a wildcard `*` to print pathnames of files whose name matches a pattern; the backslash `\` is there to prevent the shell from interpreting the `*`, allowing it to be part of the argument to `find`, which interprets that character itself.
@@ -977,7 +977,7 @@ This example uses a wildcard `*` to print pathnames of files whose name matches 
 Let's just list the directories (type 'd') under `cs50-dev`:
 
 ```bash
-d31379t@plank:~$ find cs50-dev/ -type d
+d31379t@plink:~$ find cs50-dev/ -type d
 cs50-dev/
 cs50-dev/demo
 cs50-dev/dotfiles
@@ -998,7 +998,7 @@ cs50-dev/.git/hooks
 cs50-dev/.git/objects
 cs50-dev/.git/objects/pack
 cs50-dev/.git/objects/info
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 
@@ -1017,10 +1017,10 @@ If you are unsure about the contents of a file (text, binary, compressed, Unix e
 For example, here's what it thinks of all the files in my solution to Lab 4:
 
 ```bash
-d31379t@plank:~/labs-private/tse/crawler$ ls
+d31379t@plink:~/labs-private/tse/crawler$ ls
 crawler*   crawler.o  IMPLEMENTATION.md  README.md        testing.sh
 crawler.c  DESIGN.md  Makefile           REQUIREMENTS.md  valgrind.sh
-d31379t@plank:~/labs-private/tse/crawler$ file *
+d31379t@plink:~/labs-private/tse/crawler$ file *
 crawler:           ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=e86cbbdd6a3e803576c87fdfe2d070edaa4b95a7, with debug_info, not stripped
 crawler.c:         C source, ASCII text
 crawler.o:         ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
@@ -1031,7 +1031,7 @@ README.md:         ASCII text
 REQUIREMENTS.md:   UTF-8 Unicode text, with very long lines
 testing.sh:        ASCII text
 valgrind.sh:       ASCII text
-d31379t@plank:~/labs-private/tse/crawler$ 
+d31379t@plink:~/labs-private/tse/crawler$ 
 ```
 
 
@@ -1959,17 +1959,17 @@ great!
 
 <!-- UNIT scp -->
 
-# Optional: Copying files to and from plank <a name=unit-scp>
+# Optional: Copying files to and from plink <a name=unit-scp>
 
-This unit is a quick tutorial in how to copy files to and from plank.
+This unit is a quick tutorial in how to copy files to and from plink.
 
 **[:arrow_forward: Video](https://dartmouth.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6819c17e-d2bd-491e-b6f7-acfb01694f84)**
 
 ## scp - Secure copy
 
-The `plank` server and other Thayer Linux servers all share the same filesystem - so you can log into any of them, and you'll see the same home directory.
+The `plink` server and other Thayer Linux servers all share the same filesystem - so you can log into any of them, and you'll see the same home directory.
 
-But what if you have a file on your laptop and want to copy it to `plank` -- or vice versa?
+But what if you have a file on your laptop and want to copy it to `plink` -- or vice versa?
 The simplest approach is the `scp` (secure copy) command, which should be available at the shell on any MacOS or Linux laptop (maybe Windows too?).
 
 The `scp` command's most common usage is as follows:
@@ -1982,19 +1982,19 @@ where `from` is the source file and `to` is the destination file.
 They could both be a simple pathname, in which case `scp` simply copies files within the local file system, just like `cp`.
 But if either one is of the form `username@host:pathname`, referring to the `pathname` on server named `host` after logging into account `username`, `scp` copies the file across the network (in encrypted form).
 
-For example, to copy a file called `somefile` from my Macbook to `plank`, and save it in the `cs50-dev` directory:
+For example, to copy a file called `somefile` from my Macbook to `plink`, and save it in the `cs50-dev` directory:
 
 ```
-[MacOS:~]$ scp somefile d31379t@plank.thayer.dartmouth.edu:cs50-dev/somefile
-d31379t@plank.thayer.dartmouth.edu's password: 
+[MacOS:~]$ scp somefile d31379t@plink.thayer.dartmouth.edu:cs50-dev/somefile
+d31379t@plink.thayer.dartmouth.edu's password: 
 somefile                                      100%    0     0.0KB/s   00:00    
 ```
 
-To copy the file `README.md` from my `cs50-dev` directory on `plank` to my Macbook:
+To copy the file `README.md` from my `cs50-dev` directory on `plink` to my Macbook:
 
 ```
-[MacOS:~]$ scp d31379t@plank.thayer.dartmouth.edu:cs50-dev/README.md README.md
-d31379t@plank.thayer.dartmouth.edu's password: 
+[MacOS:~]$ scp d31379t@plink.thayer.dartmouth.edu:cs50-dev/README.md README.md
+d31379t@plink.thayer.dartmouth.edu's password: 
 README.md                                                100% 5357     2.3MB/s   00:00    
 ```
 
@@ -2791,7 +2791,7 @@ More bash tips
 ## More tips about bash programming.
 
 Note there are some good Bash references on the [systems page](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/systems.md#bash);
-although the [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html) is excellent, keep in mind it is for the latest version of Bash and `plank` may be running an older version that differs slightly.
+although the [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html) is excellent, keep in mind it is for the latest version of Bash and `plink` may be running an older version that differs slightly.
 
 ## The 'shift' command
 
@@ -3234,7 +3234,7 @@ Check out this [website](https://git-school.github.io/visualizing-git) that can 
 
 ## Git remotes
 
-So far everything we've said imagines you are the only developer, and there is only one clone of the git repository: on your own computer (or, in the case of plank, in your own account).
+So far everything we've said imagines you are the only developer, and there is only one clone of the git repository: on your own computer (or, in the case of plink, in your own account).
 
 Git clones can live on servers, too.
 These *remote repositories* (often just called *remotes*) usually live on a special-purpose git server, such as those run by GitHub or GitLab.
@@ -3469,7 +3469,7 @@ A *compiler*, on the other hand, checks the code and translates it to a simple c
 
 In class we iteratively build a C version of our friend [guess1a.sh](https://github.com/CS50DartmouthFA2025/examples/blob/main/guess1a.sh), and then enhance it.
 
-> ***NOTE: if the `mygcc` command doesn't work for you on plank,***
+> ***NOTE: if the `mygcc` command doesn't work for you on plink,***
 > you may have overlooked one of the setup steps in the 'Systems' section of
 > [Lab0](https://github.com/CS50DartmouthFA2025/home/blob/main/labs/lab0), specifically,
 
@@ -3477,7 +3477,7 @@ In class we iteratively build a C version of our friend [guess1a.sh](https://git
   echo source ~/cs50-dev/dotfiles/bashrc.cs50 >> ~/.bashrc
   echo source ~/cs50-dev/dotfiles/profile.cs50 >> ~/.profile
   ```
-> After these commands, log out of plank, log back in, and try again.
+> After these commands, log out of plink, log back in, and try again.
 
 **Advice:**
 watch the video first, then look at the linked examples.
@@ -4219,7 +4219,7 @@ contents long double is  1E+31 --- sizeof 16 bytes
 $ 
 ```
 
-The above ran on `plank.thayer.dartmouth.edu`.
+The above ran on `plink.thayer.dartmouth.edu`.
 Although these sizes are common for Linux machines today (2021), it is possible they may change in the future; code should not be dependent on specific sizes.
 
 ## void
@@ -7030,7 +7030,7 @@ Although useful, I find the style we used in our complete example to be more rea
 
 ## for emacs users
 
-If you use emacs on plank, we've configured it with a keystroke `^X-c` (ctrl-X c), which tells emacs to run `make -k` in a separate subwindow.
+If you use emacs on plink, we've configured it with a keystroke `^X-c` (ctrl-X c), which tells emacs to run `make -k` in a separate subwindow.
 If you get any compiler errors, type the keystroke ``^X-` `` (ctrl-X backquote) and emacs jumps to the right file and right line.
 It's handy!
 

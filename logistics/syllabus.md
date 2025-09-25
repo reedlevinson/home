@@ -118,7 +118,7 @@ where "AP" is your score for Attendance and Participation for the class sessions
 
 See the [late assignment](#late) policies below.
 
-The graders test your lab submissions on the CS50 setup on the `plank.thayer.dartmouth.edu` system. If it doesn't run correctly there, it doesn't matter whether it runs on your Mac/Windows/Linux laptop. We don't have access to your laptop for grading.
+The graders test your lab submissions on the CS50 setup on the `plink.thayer.dartmouth.edu` system. If it doesn't run correctly there, it doesn't matter whether it runs on your Mac/Windows/Linux laptop. We don't have access to your laptop for grading.
 
 The **_final project_** is a team grade -- every team member gets the same base grade -- **but** I will subtract points from the Project grade for members who contribute substantially less than their teammates or miss class sessions. At the end of the course there is a mechanism for peer evaluation to address variance in members' contribution.
 
@@ -137,7 +137,7 @@ Your work is graded according to a rubric that I discuss with the graders. If yo
 
 ### Programs that crash
 
-Your lab solutions are graded on _correctness_, _style_, _design_, and _documentation_. Each lab requires you to document your own tests and test results; the graders  will also compile and run your program with their own test cases. If your program crashes when the graders run a particular test, your program will be marked as incorrect for that test. If your program does not compile, you will lose all correctness points. The best way to avoid that situation is to ensure that your program compiles with  no errors or warnings and doesn't crash on the `plank.thayer.dartmouth.edu` system in the first place.
+Your lab solutions are graded on _correctness_, _style_, _design_, and _documentation_. Each lab requires you to document your own tests and test results; the graders  will also compile and run your program with their own test cases. If your program crashes when the graders run a particular test, your program will be marked as incorrect for that test. If your program does not compile, you will lose all correctness points. The best way to avoid that situation is to ensure that your program compiles with  no errors or warnings and doesn't crash on the `plink.thayer.dartmouth.edu` system in the first place.
 
 Learning how to follow a specification to create, debug, and test your programs is a key part of this course.
 

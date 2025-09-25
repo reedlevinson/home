@@ -14,7 +14,7 @@ More bash tips
 ## More tips about bash programming.
 
 Note there are some good Bash references on the [systems page](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/systems.md#bash);
-although the [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html) is excellent, keep in mind it is for the latest version of Bash and `plank` may be running an older version that differs slightly.
+although the [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html) is excellent, keep in mind it is for the latest version of Bash and `plink` may be running an older version that differs slightly.
 
 ## The 'shift' command
 

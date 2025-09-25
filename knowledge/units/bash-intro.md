@@ -54,7 +54,7 @@ As another example, the format of an `ssh` command line looks like this:
 
 	ssh [options] [user@]hostname [command] [argument]...
 
-I use the command `ssh d31379t@plank.thayer.dartmouth.edu` to indicate the user and host.
+I use the command `ssh d31379t@plink.thayer.dartmouth.edu` to indicate the user and host.
 
 Note how I've described the syntax of the `ssh` command.
 Those `[ ]` brackets and `...` are not literally part of the command - you never type them!
@@ -183,9 +183,9 @@ The `PATH` variable must be defined, with a colon-separated list of pathnames wh
 Take a look at your `PATH` by asking the shell to substitute its value (`$PATH`) and pass it as an argument to the `echo` command:
 
 ```bash
-d31379t@plank:~$ echo $PATH
+d31379t@plink:~$ echo $PATH
 /thayerfs/home/d31379t/bin:/dartfs-hpc/admin/opt/el7/intel/compilers_and_libraries_2019.3.199/linux/bin/intel64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/thayerfs/apps/other:/thayerfs/apps/abaqus/bin:/thayerfs/apps/ansys/current/Framework/bin/Linux64:/thayerfs/apps/ansys/current/fluent/bin:/thayerfs/apps/cadence/bin:/thayerfs/apps/comsol/bin:/thayerfs/apps/eclipse:/thayerfs/apps/fiji:/thayerfs/apps/gams:/thayerfs/apps/idl/bin:/thayerfs/apps/julia/bin:/thayerfs/apps/maple/bin:/thayerfs/apps/mathematica/bin:/thayerfs/apps/matlab/bin:/thayerfs/apps/maya/bin:/thayerfs/apps/netgen/bin:/thayerfs/apps/paraview/bin:/thayerfs/apps/sagemath:/thayerfs/apps/synopsys/pcmstudio/bin:/thayerfs/apps/synopsys/sentaurus/bin:/thayerfs/apps/tecplot/bin:/thayerfs/apps/totalview/bin:/thayerfs/apps/turbovnc/opt/TurboVNC/bin:/thayerfs/apps/visit/bin:/thayerfs/apps/xilinx/bin
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 > Wow! Thayer really puts a lot into the Shell's search path.
@@ -194,12 +194,12 @@ Where do the `sort` and `ls` commands reside?
 Let's use another command to find out.
 
 ```bash
-d31379t@plank:~$ which sort
+d31379t@plink:~$ which sort
 sort is /usr/bin/sort
-d31379t@plank:~$ which ls
+d31379t@plink:~$ which ls
 ls is aliased to `ls -F --color=auto'
 ls is /bin/ls
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 We see that the `sort` command is actually a program stored in the file `/usr/bin/sort`.
@@ -216,11 +216,11 @@ It then searches the `PATH` to find an executable file with that name; in this c
 Below you can see the effect of running `ls` (the alias) and `/bin/ls` (the raw command, without the `-F`).
 
 ```bash
-d31379t@plank:~$ ls
+d31379t@plink:~$ ls
 bin/  cs50-dev/  dot@  go@  lib@  projects/  scripts@  staff/
-d31379t@plank:~$ /bin/ls
+d31379t@plink:~$ /bin/ls
 bin  cs50-dev  dot  go	lib  projects  scripts	staff
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 (I can't show the coloration here; try it yourself!)

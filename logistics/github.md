@@ -16,7 +16,7 @@ You will use GitHub to manage and share your lab and project code.
 
 3. **Generate an ssh key pair**.
 	This key pair is used by GitHub to identify you and ensure that you have permission to download code from (and to push code to) some given code repository.
-	On `plank`, run the command shown below to generate an ssh key pair (be sure to use the email address associated with your GitHub account).
+	On `plink`, run the command shown below to generate an ssh key pair (be sure to use the email address associated with your GitHub account).
 	When you're prompted to "Enter a file in which to save the key," press *enter* (return) to accept the default.
 	When you're prompted to "Enter passphrase (empty for no passphrase)" press *enter* (return) two more times.
 	Pictured below is example output from generating an ssh key pair.
@@ -47,7 +47,7 @@ Finally, click **Add SSH Key**.
 	![screenshot from GitHub ssh page](images/ssh-add-key-2.png)
 
 7. **Teach git your name**.
-	Back in the Terminal, on `plank`, configure the local git client so it, too, knows your real name.
+	Back in the Terminal, on `plink`, configure the local git client so it, too, knows your real name.
 	Following these [instructions](https://docs.github.com/en/github/using-git/setting-your-username-in-git),
 	
 	```bash

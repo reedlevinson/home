@@ -25,7 +25,7 @@ _note: (#2 based on exercises from a CS class at Villanova)_
 ## 2. swapping pointers
 
 Copy the `activity6-2.c` file from the examples directory into  
-the `memorygames` directory on plank.
+the `memorygames` directory on plink.
 
 The `swap_nums` function seems to work, but the `swap_pointers` 
 functions does not. Can you fix it?

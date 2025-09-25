@@ -39,7 +39,7 @@ A *compiler*, on the other hand, checks the code and translates it to a simple c
 
 In class we iteratively build a C version of our friend [guess1a.sh](https://github.com/CS50DartmouthFA2025/examples/blob/main/guess1a.sh), and then enhance it.
 
-> ***NOTE: if the `mygcc` command doesn't work for you on plank,***
+> ***NOTE: if the `mygcc` command doesn't work for you on plink,***
 > you may have overlooked one of the setup steps in the 'Systems' section of
 > [Lab0](https://github.com/CS50DartmouthFA2025/home/blob/main/labs/lab0), specifically,
 
@@ -47,7 +47,7 @@ In class we iteratively build a C version of our friend [guess1a.sh](https://git
   echo source ~/cs50-dev/dotfiles/bashrc.cs50 >> ~/.bashrc
   echo source ~/cs50-dev/dotfiles/profile.cs50 >> ~/.profile
   ```
-> After these commands, log out of plank, log back in, and try again.
+> After these commands, log out of plink, log back in, and try again.
 
 **Advice:**
 watch the video first, then look at the linked examples.

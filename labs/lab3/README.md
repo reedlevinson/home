@@ -167,7 +167,7 @@ When adding a new item with `set_insert()` or `hashtable_insert()`, both modules
 You are encouraged to follow the style and layout of the `bag` module when developing new modules.
 
 You can also learn a lot from our binary trees examples in the examples directory in the
-`cs50-dev/shared` directory on plank.
+`cs50-dev/shared` directory on plink.
 You are welcome to copy snippets of code from this (or any other) CS50 example code as long as you add a comment indicating you've done so.
 
 We suggest implementing the **set** and **counters** as simplified linked lists, much like we did for `bag`.

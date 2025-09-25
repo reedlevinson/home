@@ -38,7 +38,7 @@ The schedule below is tentative and subject to change
 * Reading: [Unix and shell programming](read-shell.md)
 * History: [Unix pipes](hist-pipes.md)
 * Optional: [MacOS tip](macos.md)
-* Optional: [Copying files to and from plank](scp.md)
+* Optional: [Copying files to and from plink](scp.md)
 * Unit: [Shell scripts and conditional expressions](bash-conditional.md)
 * Unit: [Looping in shell](bash-loops.md)
 * Unit: [Shell 'while' loops](bash-while.md)

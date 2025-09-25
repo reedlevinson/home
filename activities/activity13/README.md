@@ -24,6 +24,6 @@ Put your team's answers in a Markdown file and upload it to Canvas for Activity 
 #### Part 3:
 12. How would you prevent `git` from adding your library to your repository?
 13. How can you always get the order of `.o` and `.a` files right?
-14. Can you share a library with someone else on `plank`? Why or why not?\
+14. Can you share a library with someone else on `plink`? Why or why not?\
 (Not a plagiarism question ;-)
-15. Can you copy your library from `plank` to your laptop and use it there? Why or why not?	
+15. Can you copy your library from `plink` to your laptop and use it there? Why or why not?	

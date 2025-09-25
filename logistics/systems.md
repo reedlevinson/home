@@ -57,14 +57,14 @@ You will do all your programming and lab submission on Linux servers at Dartmout
 <!-- @CHANGEME - insert term-specific repo link -->
 To set yourself up, follow these [instructions](https://github.com/CS50DartmouthFA2025/cs50-dev).
 
-The primary CS50 server is called `plank.thayer.dartmouth.edu`; you may also use equivalent servers called `babylonX.thayer.dartmouth.edu`, where `X` is 1 through 8.
+The primary CS50 server is called `plink.thayer.dartmouth.edu`; you may also use equivalent servers called `babylonX.thayer.dartmouth.edu`, where `X` is 1 through 8.
 (You can check their status [here](https://cluster-usage.thayer.dartmouth.edu).)
 Your laptop must first be on the campus network, or on [Dartmouth VPN](https://services.dartmouth.edu/TDClient/1806/Portal/KB/?CategoryID=13404), to access these servers.
 
 **In CS50 we support development only on Thayer's Linux systems.**
 Not MacOS, not Windows, not even other Linux systems.
 Linux systems differ in subtle ways; MacOS is a form of Unix different from Linux, and Windows is even more different.
-**Our graders will use `plank` for all testing**.
+**Our graders will use `plink` for all testing**.
 
 ### Tips for speedier login
 
@@ -72,7 +72,7 @@ Linux systems differ in subtle ways; MacOS is a form of Unix different from Linu
 
 	```
 	Host cs50
-	   Hostname plank.thayer.dartmouth.edu
+	   Hostname plink.thayer.dartmouth.edu
 	   User f12345x
 	```
 
@@ -81,7 +81,7 @@ On MacOS, this file is `~/.ssh/config`, and you can create or append to it by op
 ```
 echo >> ~/.ssh/config <<EOF
 Host cs50
-   Hostname plank.thayer.dartmouth.edu
+   Hostname plink.thayer.dartmouth.edu
    User f12345x
 EOF
 ```
@@ -93,7 +93,7 @@ EOF
 	```
 
 	That's nice, but it is slow.
-	You can turn off this message by creating a file in your home directory ***on plank***.
+	You can turn off this message by creating a file in your home directory ***on plink***.
 	Although the mere presence of this file is sufficient, put some text in the file so you can remember why it is there:
 	
 	```bash
@@ -114,11 +114,11 @@ EOF
 [Linux](https://en.wikipedia.org/wiki/Linux) is a flavor of the [Unix](https://en.wikipedia.org/wiki/Unix) operating system.
 It is likely the most common OS in use today, and the one we use on all CS and Thayer systems.
 
-Definitive documentation for the Unix tools we use can be found in 'man pages' (short for "manual pages") on `plank.thayer.dartmouth.edu`.
+Definitive documentation for the Unix tools we use can be found in 'man pages' (short for "manual pages") on `plink.thayer.dartmouth.edu`.
 For example, to learn the details of the `ls` command, type `man ls`.
 
 > You're welcome to employ your favorite search engine, but beware that there are subtle variations in UNIX tools across its many flavors and distributions.
-> What you find online may not work on `plank` Linux.
+> What you find online may not work on `plink` Linux.
 
 For a deeper dive, there are many books on UNIX and all of its variants, including Linux (see below).
 
@@ -137,7 +137,7 @@ For a deeper dive, there are many books on UNIX and all of its variants, includi
 
 ## Bash
 
-When you log into `plank` over ssh, you are running the `bash` shell.
+When you log into `plink` over ssh, you are running the `bash` shell.
 You will need to learn basic `bash` commands for getting around, and for writing scripts.
 Here are some good references for bash and bash scripting.
 
@@ -218,14 +218,14 @@ The functionality has not changed, only the name, so many of the techniques form
 
 ## 'screen' Terminal multiplexer
 
-When you open a Terminal window and ssh to `plank`, you get one window, one shell.
+When you open a Terminal window and ssh to `plink`, you get one window, one shell.
 Sometimes you want (or need) multiple windows, and sometimes your connection breaks and you lose everything you were doing.
 The program called [screen](https://www.gnu.org/software/screen/) can help!
-With `screen` you can have multiple terminal sessions running on `plank` and if you have to disconnect for some reason (e.g., to eat or sleep) when you return those `screen ` sessions will be right where you left them.
+With `screen` you can have multiple terminal sessions running on `plink` and if you have to disconnect for some reason (e.g., to eat or sleep) when you return those `screen ` sessions will be right where you left them.
 This is _really_ handy for man pages, debugging, and more, especially when working remotely!
 
 Thayer Computing Services supports `screen`: read more about it [here](https://kb.thayer.dartmouth.edu/article/361-linux-services), under the heading for *Long-running processes*; ignore all the aspects about `krenew`.
-Here's another [tutorial](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/) about screen; ignore the installation instructions, because it's already installed on plank.
+Here's another [tutorial](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/) about screen; ignore the installation instructions, because it's already installed on plink.
 
 > One catch: if you are an emacs user, screen's use of CTRL-a as a command prefix (e.g., to detach the screen) can be irritating... because emacs uses CTRL-a to move cursor to beginning of line.
 > It may be possible to configure `screen` to bind a different character as a command prefix.
@@ -295,7 +295,7 @@ You can also do this manually by sshing to any Thayer system and creating/editin
 
 Once you have settled on a preferred editor, you should make that information available to apps that might open an editor for you.
 (One common example: `git commit` opens an editor for you to review a list of files to commit, and to type a commit message.)
-Even if you normally use a remote editor (like vscode) you should choose an editor (vim or emacs) for occasions when you need to make edits directly on plank.
+Even if you normally use a remote editor (like vscode) you should choose an editor (vim or emacs) for occasions when you need to make edits directly on plink.
 
 The most universal method is to define the `EDITOR` shell variable.
 We placed some examples in the file `~/cs50-dev/dotfiles/profile.cs50`, but you need to uncomment one of the lines to select the editor you prefer.

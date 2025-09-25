@@ -17,7 +17,7 @@ Here's a handy [quick reference for valgrind](https://bytes.usc.edu/cs103/wiki/v
 
 You can find the examples for this activity in the `activity12` directory in our examples directory:
 `~/cs50-dev/shared/examples/activity12`.
-Copy these to your own directory on plank, e.g., `~cs50-dev/activity12/`. You can also just copy the
+Copy these to your own directory on plink, e.g., `~cs50-dev/activity12/`. You can also just copy the
 `act12.tar` file and untar it on your machine.
 
 ### Part A

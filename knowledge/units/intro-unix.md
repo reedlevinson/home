@@ -71,18 +71,18 @@ Before continuing, follow these [instructions](https://github.com/CS50DartmouthF
 We can log into Thayer's Linux servers over the Internet, using the **s**ecure **sh**ell (`ssh`) command.
 The `ssh` command establishes an encrypted connection between your laptop and the other server.
 
-Below, I remotely log in as user `d31379t` (my Dartmouth NetID) to the server named `plank` by giving its full Internet hostname - `plank.thayer.dartmouth.edu`.
+Below, I remotely log in as user `d31379t` (my Dartmouth NetID) to the server named `plink` by giving its full Internet hostname - `plink.thayer.dartmouth.edu`.
 
 ```
-[MacOS:~]$ ssh d31379t@plank.thayer.dartmouth.edu
-d31379t@plank.thayer.dartmouth.edu's password: 
+[MacOS:~]$ ssh d31379t@plink.thayer.dartmouth.edu
+d31379t@plink.thayer.dartmouth.edu's password: 
 
   << You are currently using 4.01M of your 5.00G home directory quota. >>
 
-d31379t@plank:~$ echo hello class!
+d31379t@plink:~$ echo hello class!
 hello class!
-d31379t@plank:~$ logout
-Connection to plank.thayer.dartmouth.edu closed.
+d31379t@plink:~$ logout
+Connection to plink.thayer.dartmouth.edu closed.
 [MacOS:~]$ 
 ```
 
@@ -93,7 +93,7 @@ It asked for my password, which is my usual Dartmouth password.
 The `echo` command takes an optional list of arguments, and simply prints them out.
 Here I gave it two arguments.
 
-I then used the command `logout` to leave, or "log out of" the `plank` system.
+I then used the command `logout` to leave, or "log out of" the `plink` system.
 
 > It is good practice to `exit` or `logout` of any shell window, rather than just closing the window... you may need to properly exit background jobs or unsaved changes.
 > The shell will warn you if you have left any background jobs running.
@@ -102,25 +102,25 @@ Let's log back in.
 Notice how it sometimes pauses quite a while after entering your password.
 
 ```
-[MacOS:~]$ ssh d31379t@plank.thayer.dartmouth.edu
-d31379t@plank.thayer.dartmouth.edu's password: 
+[MacOS:~]$ ssh d31379t@plink.thayer.dartmouth.edu
+d31379t@plink.thayer.dartmouth.edu's password: 
 
   << You are currently using 4.01M of your 5.00G home directory quota. >>
 
-d31379t@plank:~$  echo The presence of this file disables login notification of your disk-quota usage. >  .notfsquota
-d31379t@plank:~$ 
+d31379t@plink:~$  echo The presence of this file disables login notification of your disk-quota usage. >  .notfsquota
+d31379t@plink:~$ 
 ```
 
-That pause was due to plank computing my disk utilization.
+That pause was due to plink computing my disk utilization.
 To save time, I created a new file `.notfsquota` which, when present, causes the login procedure to skip that quota calculation.
 (I'm still subject to the quota, but I really don't care to see it every time I log in!)
 Here, the `>` redirects the output of `echo` to the file named next; if that file does not exist, it is created; if it exists, it is overwritten.
 We can see the contents of that file with the `cat` command:
 
 ```bash
-d31379t@plank:~$ cat .notfsquota
+d31379t@plink:~$ cat .notfsquota
 The presence of this file disables login notification of your disk-quota usage.
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 Why `cat`?
@@ -132,19 +132,19 @@ Some will run too long - perhaps printing too much output; you can stop (kill) t
 One silly program, `yes`, just prints an infinite sequence of `y` characters until you kill it:
 
 ```bash
-d31379t@plank:~$ yes
+d31379t@plink:~$ yes
 y
 y
 y
 ^C
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 Some commands ask for your input, and continue to read input until they read an "end of file" (EOF); if they are reading from your keyboard, you can cause the program to detect an EOF by typing control-D (`^D`) at the beginning of an input line.
 Below I typed three lines of text, the (`^D`) at the start of the sixth input line, to the `sort` program:
 
 ```bash
-d31379t@plank:~$ sort
+d31379t@plink:~$ sort
 sort
 dartmouth
 brown
@@ -158,7 +158,7 @@ princetonsort
 harvard
 princeton
 yale
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 
 ```
 

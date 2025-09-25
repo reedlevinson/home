@@ -212,7 +212,7 @@ Check out this [website](https://git-school.github.io/visualizing-git) that can 
 
 ## Git remotes
 
-So far everything we've said imagines you are the only developer, and there is only one clone of the git repository: on your own computer (or, in the case of plank, in your own account).
+So far everything we've said imagines you are the only developer, and there is only one clone of the git repository: on your own computer (or, in the case of plink, in your own account).
 
 Git clones can live on servers, too.
 These *remote repositories* (often just called *remotes*) usually live on a special-purpose git server, such as those run by GitHub or GitLab.

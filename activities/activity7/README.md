@@ -13,7 +13,7 @@ Once finished, the rest of you should click through that link and pick the same 
 
 Clone that repository and make yourself a new branch:
 
-1. Log into plank; `cd cs50-dev`.
+1. Log into plink; `cd cs50-dev`.
 2. `git clone` the repository from GitHub Classroom, above.
 3. `cd` into the resulting new subdirectory.
 4. Copy the file `covid-blank.c` to `covid.c`

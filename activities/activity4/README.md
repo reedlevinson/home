@@ -13,7 +13,7 @@ main(int argc, char* argv[])
 ```
 ```````
 
-Do these exercises on `plank`, and copy your answers back to your machine to upload to Canvas.
+Do these exercises on `plink`, and copy your answers back to your machine to upload to Canvas.
 
 ## 1. Add the missing code
 

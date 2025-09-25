@@ -51,7 +51,7 @@ contents long double is  1E+31 --- sizeof 16 bytes
 $ 
 ```
 
-The above ran on `plank.thayer.dartmouth.edu`.
+The above ran on `plink.thayer.dartmouth.edu`.
 Although these sizes are common for Linux machines today (2021), it is possible they may change in the future; code should not be dependent on specific sizes.
 
 ## void

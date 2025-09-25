@@ -37,7 +37,7 @@ Although useful, I find the style we used in our complete example to be more rea
 
 ## for emacs users
 
-If you use emacs on plank, we've configured it with a keystroke `^X-c` (ctrl-X c), which tells emacs to run `make -k` in a separate subwindow.
+If you use emacs on plink, we've configured it with a keystroke `^X-c` (ctrl-X c), which tells emacs to run `make -k` in a separate subwindow.
 If you get any compiler errors, type the keystroke ``^X-` `` (ctrl-X backquote) and emacs jumps to the right file and right line.
 It's handy!
 

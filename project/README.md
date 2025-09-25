@@ -461,13 +461,13 @@ SUM:|11|274|517|1010
 
 As you can see, my code is heavily commented: about half the lines of code are comments!
 
-These reports come from the excellent [cloc](https://github.com/AlDanial/cloc) tool, installed on plank.
+These reports come from the excellent [cloc](https://github.com/AlDanial/cloc) tool, installed on plink.
 
 
 ### Testing and tools
 
 You may run your `client` or `server` on any Linux server in the Thayer collection simply by giving the server's hostname on the client's commandline.
-Run a server on `babylon5` and a client on `plank`, and you're playing over the real network!
+Run a server on `babylon5` and a client on `plink`, and you're playing over the real network!
 
 We installed four programs in the shared directory `~/cs50-dev/shared/nuggets/`:
 

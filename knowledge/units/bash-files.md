@@ -13,26 +13,26 @@ A directory always contains two special files `.` (dot) and `..` (dot dot); `.` 
 In the following, I make a new directory, change my current working directory to be that new directory, create a new file in that directory, and use `ls` to explore the contents of the new directory and its parent.
 
 ```bash
-d31379t@plank:~/cs50-dev$ ls
+d31379t@plink:~/cs50-dev$ ls
 dotfiles/  README.md  shared@
-d31379t@plank:~/cs50-dev$ mkdir demo
-d31379t@plank:~/cs50-dev$ cd demo
-d31379t@plank:~/cs50-dev/demo$ echo this is a new file > README
-d31379t@plank:~/cs50-dev/demo$ ls
+d31379t@plink:~/cs50-dev$ mkdir demo
+d31379t@plink:~/cs50-dev$ cd demo
+d31379t@plink:~/cs50-dev/demo$ echo this is a new file > README
+d31379t@plink:~/cs50-dev/demo$ ls
 README
-d31379t@plank:~/cs50-dev/demo$ cat README
+d31379t@plink:~/cs50-dev/demo$ cat README
 this is a new file
-d31379t@plank:~/cs50-dev/demo$ cd ..
-d31379t@plank:~/cs50-dev$ ls 
+d31379t@plink:~/cs50-dev/demo$ cd ..
+d31379t@plink:~/cs50-dev$ ls 
 dotfiles/  demo/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls demo
+d31379t@plink:~/cs50-dev$ ls demo
 README
-d31379t@plank:~/cs50-dev$ ls -al demo
+d31379t@plink:~/cs50-dev$ ls -al demo
 total 39
 drwxr-xr-x 2 d31379t thayerusers  24 Mar 27 18:10 ./
 drwxr-xr-x 5 d31379t thayerusers 121 Mar 27 18:10 ../
 -rw-r--r-- 1 d31379t thayerusers  19 Mar 27 18:10 README
-d31379t@plank:~/cs50-dev$ 
+d31379t@plink:~/cs50-dev$ 
 ```
 
 The `-al` flags to `ls` ask for the long-format listing (`-l`) and to show all files (`-a`); more on that below.
@@ -44,23 +44,23 @@ Notice that a relative pathname can also use `.` or `..`, as in the final exampl
 
 
 ```bash
-[d31379t@plank:~/cs50-dev$ ls /thayerfs/home/d31379t
+[d31379t@plink:~/cs50-dev$ ls /thayerfs/home/d31379t
 bin/  cs50-dev/  dot@  go@  lib@  projects/  scripts@  staff/
-d31379t@plank:~/cs50-dev$ ls /thayerfs/home/d31379t/cs50-dev
+d31379t@plink:~/cs50-dev$ ls /thayerfs/home/d31379t/cs50-dev
 dotfiles/  demo/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls ~
+d31379t@plink:~/cs50-dev$ ls ~
 bin/  cs50-dev/  dot@  go@  lib@  projects/  scripts@  staff/
-d31379t@plank:~/cs50-dev$ ls ~/cs50-dev
+d31379t@plink:~/cs50-dev$ ls ~/cs50-dev
 dotfiles/  demo/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls ~/cs50-dev/demo
+d31379t@plink:~/cs50-dev$ ls ~/cs50-dev/demo
 README
-d31379t@plank:~/cs50-dev$ ls demo
+d31379t@plink:~/cs50-dev$ ls demo
 README
-d31379t@plank:~/cs50-dev$ ls ./demo
+d31379t@plink:~/cs50-dev$ ls ./demo
 README
-d31379t@plank:~/cs50-dev$ ls ../cs50-dev/demo
+d31379t@plink:~/cs50-dev$ ls ../cs50-dev/demo
 README
-d31379t@plank:~/cs50-dev$ 
+d31379t@plink:~/cs50-dev$ 
 ```
 
 You can always "go home" by simply typing `cd ~` or even just `cd`, either of which change your current working directory to home.
@@ -111,31 +111,31 @@ This behavior is called *globbing*; the shell actually replaces what you write w
 Here are some examples:
 
 ```bash
-d31379t@plank:~/cs50-dev/demo$ ls
+d31379t@plink:~/cs50-dev/demo$ ls
 game    game.o    README     test2.txt  test4.txt  test6.txt  test8.txt
 game.c  Makefile  test1.txt  test3.txt  test5.txt  test7.txt  test9.txt
-d31379t@plank:~/cs50-dev/demo$ ls game*
+d31379t@plink:~/cs50-dev/demo$ ls game*
 game  game.c  game.o
-d31379t@plank:~/cs50-dev/demo$ ls game.*
+d31379t@plink:~/cs50-dev/demo$ ls game.*
 game.c  game.o
-d31379t@plank:~/cs50-dev/demo$ ls test*txt
+d31379t@plink:~/cs50-dev/demo$ ls test*txt
 test1.txt  test3.txt  test5.txt  test7.txt  test9.txt
 test2.txt  test4.txt  test6.txt  test8.txt
-d31379t@plank:~/cs50-dev/demo$ ls test?.txt
+d31379t@plink:~/cs50-dev/demo$ ls test?.txt
 test1.txt  test3.txt  test5.txt  test7.txt  test9.txt
 test2.txt  test4.txt  test6.txt  test8.txt
-d31379t@plank:~/cs50-dev/demo$ ls test[2468].*
+d31379t@plink:~/cs50-dev/demo$ ls test[2468].*
 test2.txt  test4.txt  test6.txt  test8.txt
-d31379t@plank:~/cs50-dev/demo$ ls test[7-9].*
+d31379t@plink:~/cs50-dev/demo$ ls test[7-9].*
 test7.txt  test8.txt  test9.txt
-d31379t@plank:~/cs50-dev/demo$ ls *.*
+d31379t@plink:~/cs50-dev/demo$ ls *.*
 game.c  test1.txt  test3.txt  test5.txt  test7.txt  test9.txt
 game.o  test2.txt  test4.txt  test6.txt  test8.txt
-d31379t@plank:~/cs50-dev/demo$ echo [a-z]*    
+d31379t@plink:~/cs50-dev/demo$ echo [a-z]*    
 game game.c game.o test1.txt test2.txt test3.txt test4.txt test5.txt test6.txt test7.txt test8.txt test9.txt
-d31379t@plank:~/cs50-dev/demo$ echo [A-Z]*
+d31379t@plink:~/cs50-dev/demo$ echo [A-Z]*
 Makefile README
-d31379t@plank:~/cs50-dev/demo$ 
+d31379t@plink:~/cs50-dev/demo$ 
 ```
 
 ### Hidden files
@@ -145,7 +145,7 @@ Home directories, in particular, include many 'hidden' (but important!) files.
 The `-a` switch tells `ls` to list "all" files, including those that begin with a dot (aka, the hidden files).
 
 ```bash
-d31379t@plank:~$ ls -a
+d31379t@plink:~$ ls -a
 ./             .cache/    .gitconfig         .muttrc@     .signature@
 ../            cs50-dev/  .gitconfig-fancy@  .notfsquota  .ssh/
 .bash_history  .cshrc@    .gnupg/            .plan@       staff/
@@ -163,16 +163,16 @@ It appends an `@` to indicate the file is actually a *symbolic link*, meaning, a
 Here's an important example:
 
 ```bash
-d31379t@plank:~/cs50-dev$ ls
+d31379t@plink:~/cs50-dev$ ls
 dotfiles/  demo/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls -l shared
+d31379t@plink:~/cs50-dev$ ls -l shared
 lrwxrwxrwx 1 d31379t thayerusers 34 Mar 27 14:56 shared -> /thayerfs/courses/21spring/cosc050/
-d31379t@plank:~/cs50-dev$ ls shared/
+d31379t@plink:~/cs50-dev$ ls shared/
 examples/
-d31379t@plank:~/cs50-dev$ ls shared/examples/
+d31379t@plink:~/cs50-dev$ ls shared/examples/
 args.sh*   guess1a.sh*  guess2.sh*  guess4.sh*     shifter.sh*
 gitignore  guess1b.sh*  guess3.sh*  imagepage.sh*
-d31379t@plank:~/cs50-dev$ 
+d31379t@plink:~/cs50-dev$ 
 ```
 
 Notice how `ls -l` printed `->` and the name of the target for the `shared` symlink.
@@ -183,10 +183,10 @@ That's where we provide CS50 examples!
 No matter where your current working directory, you can always see the examples:
 
 ```bash
-d31379t@plank:~$ ls ~/cs50-dev/shared/examples/
+d31379t@plink:~$ ls ~/cs50-dev/shared/examples/
 args.sh*   guess1a.sh*  guess2.sh*  guess4.sh*     shifter.sh*
 gitignore  guess1b.sh*  guess3.sh*  imagepage.sh*
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 > How did I create that symbolic link (aka symlink)?
@@ -201,12 +201,12 @@ Back to the home directory.
 To see just the dot files, let's get clever with the shell's glob characters:
 
 ```bash
-d31379t@plank:~$ ls -ad .??*
+d31379t@plink:~$ ls -ad .??*
 .bash_history  .cshrc@     .gitconfig-fancy@  .notfsquota  .ssh/
 .bash_logout   .emacs      .gnupg/            .plan@       .subversion@
 .bashrc        .emacs.d/   .login@            .profile     .vimrc
 .cache/        .gitconfig  .muttrc@           .signature@
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 All of these "dot files" (or "dot directories") are important to one program or another; you are likely to have the following:
@@ -237,11 +237,11 @@ We can look at our home directory pathname using the `pwd` (**p**rint **w**orkin
 Let's see what we have inside our Linux box.
 
 ```bash
-d31379t@plank:~$ pwd
+d31379t@plink:~$ pwd
 /thayerfs/home/d31379t
-d31379t@plank:~$ ls
+d31379t@plink:~$ ls
 bin/  cs50-dev/  dot@  go@  lib@  projects/  scripts@  staff/
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 The tilde (`~`) above is shorthand for 'home'.
@@ -252,9 +252,9 @@ Some I see to be subdirectories, because `ls` added `/` to their names.
 What's in the `cs50-dev` subdirectory?
 
 ```bash
-d31379t@plank:~$ ls cs50-dev
+d31379t@plink:~$ ls cs50-dev
 dotfiles/  README.md  shared@
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 Notice how I used an argument to `ls` to tell it which directory to list.
@@ -262,17 +262,17 @@ I see that `cs50-dev` has a subdirectory `dotfiles`, a file `README.md`, and a *
 Let's go down into that subdirectory and look more closely.
 
 ```bash
-d31379t@plank:~$ cd cs50-dev
-d31379t@plank:~/cs50-dev$ pwd
+d31379t@plink:~$ cd cs50-dev
+d31379t@plink:~/cs50-dev$ pwd
 /thayerfs/home/d31379t/cs50-dev
-d31379t@plank:~/cs50-dev$ ls
+d31379t@plink:~/cs50-dev$ ls
 dotfiles/  README.md  shared@
-d31379t@plank:~/cs50-dev$ ls -l
+d31379t@plink:~/cs50-dev$ ls -l
 total 79
 drwxr-xr-x 2 d31379t thayerusers  159 Mar 27 14:57 dotfiles/
 -rw-r--r-- 1 d31379t thayerusers 5357 Mar 27 14:56 README.md
 lrwxrwxrwx 1 d31379t thayerusers   34 Mar 27 14:56 shared -> /thayerfs/courses/21spring/cosc050/
-d31379t@plank:~/cs50-dev$ 
+d31379t@plink:~/cs50-dev$ 
 ```
 
 I changed directory (`cd`) so now my *current working directory* is `cs50-dev`; note that `pwd` printed its longer pathname, and the shell nicely updated its prompt to remind us of our current directory.
@@ -286,9 +286,9 @@ For example, the second line says `README.md` has permissions `-rw-r--r--`, owne
 You need appropriate permissions to be able to change to a directory, list its contents, or read/write/create its files; for example, here I try to list another user's home directory:
 
 ```bash
-d31379t@plank:~$ ls /thayerfs/home/f002tzm
+d31379t@plink:~$ ls /thayerfs/home/f002tzm
 ls: cannot open directory '/thayerfs/home/f002tzm': Permission denied
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 ### Bash shell startup files
@@ -350,7 +350,7 @@ Many times you want to find a file but do not know where it is in the directory 
 The `find` command can walk a file hierarchy:
 
 ```bash
-d31379t@plank:~$ find cs50-dev
+d31379t@plink:~$ find cs50-dev
 cs50-dev/
 cs50-dev/README.md
 cs50-dev/demo
@@ -384,19 +384,19 @@ and it goes on, because `cs50-dev` is a git repository and git hides a lot of fi
 Indeed, what other git repos do I have?
 
 ```bash
-d31379t@plank:~$ find . -name .git
+d31379t@plink:~$ find . -name .git
 ./staff/.git
 ./cs50-dev/.git
 ./projects/kotz-bin-lib/.git
 ./projects/metahashcheck/.git
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 and where might I have Markdown files?
 Markdown file names (by convention) end in `.md`.
 
 ```bash
-d31379t@plank:~$ find . -name \*.md
+d31379t@plink:~$ find . -name \*.md
 ./staff/README.md
 ./staff/moss_scripts/README.md
 ./staff/grading_scripts/README.md
@@ -405,7 +405,7 @@ d31379t@plank:~$ find . -name \*.md
 ./cs50-dev/dotfiles/README.md
 ./projects/kotz-bin-lib/README.md
 ./projects/metahashcheck/README.md
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 This example uses a wildcard `*` to print pathnames of files whose name matches a pattern; the backslash `\` is there to prevent the shell from interpreting the `*`, allowing it to be part of the argument to `find`, which interprets that character itself.
@@ -413,7 +413,7 @@ This example uses a wildcard `*` to print pathnames of files whose name matches 
 Let's just list the directories (type 'd') under `cs50-dev`:
 
 ```bash
-d31379t@plank:~$ find cs50-dev/ -type d
+d31379t@plink:~$ find cs50-dev/ -type d
 cs50-dev/
 cs50-dev/demo
 cs50-dev/dotfiles
@@ -434,7 +434,7 @@ cs50-dev/.git/hooks
 cs50-dev/.git/objects
 cs50-dev/.git/objects/pack
 cs50-dev/.git/objects/info
-d31379t@plank:~$ 
+d31379t@plink:~$ 
 ```
 
 
@@ -453,10 +453,10 @@ If you are unsure about the contents of a file (text, binary, compressed, Unix e
 For example, here's what it thinks of all the files in my solution to Lab 4:
 
 ```bash
-d31379t@plank:~/labs-private/tse/crawler$ ls
+d31379t@plink:~/labs-private/tse/crawler$ ls
 crawler*   crawler.o  IMPLEMENTATION.md  README.md        testing.sh
 crawler.c  DESIGN.md  Makefile           REQUIREMENTS.md  valgrind.sh
-d31379t@plank:~/labs-private/tse/crawler$ file *
+d31379t@plink:~/labs-private/tse/crawler$ file *
 crawler:           ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=e86cbbdd6a3e803576c87fdfe2d070edaa4b95a7, with debug_info, not stripped
 crawler.c:         C source, ASCII text
 crawler.o:         ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
@@ -467,5 +467,5 @@ README.md:         ASCII text
 REQUIREMENTS.md:   UTF-8 Unicode text, with very long lines
 testing.sh:        ASCII text
 valgrind.sh:       ASCII text
-d31379t@plank:~/labs-private/tse/crawler$ 
+d31379t@plink:~/labs-private/tse/crawler$ 
 ```
