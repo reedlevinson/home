@@ -2,8 +2,8 @@
 
 ## 1. Show 'em
 
-Copy the `activity6-1.c` file from the shared directory into a new 
-directory called `memorygames` into your `~/cs50-dev/` on plank 
+Copy the `activity6-1.c` file from the examples folder into a new 
+directory called `memorygames` into your `~/` on plink 
 and then `cd` into that directory.
 
 In place of the comments in the `showx` and `showy` functions, 
@@ -24,7 +24,7 @@ _note: (#2 based on exercises from a CS class at Villanova)_
 
 ## 2. swapping pointers
 
-Copy the `activity6-2.c` file from the shared directory into  
+Copy the `activity6-2.c` file from the examples directory into  
 the `memorygames` directory on plank.
 
 The `swap_nums` function seems to work, but the `swap_pointers` 
@@ -33,7 +33,7 @@ functions does not. Can you fix it?
 ---
 
 ## 3. Buggy `stringcat`
-Copy the `stringcat.c` file from the shared directory into a new directory called `memorygames` into your `~/cs50-dev/` on plank and then `cd` into that directory.
+Copy the `stringcat.c` file from the examples directory into `~/memorygames`.
 
 The code is buggy and triggers a *stack smashing detected!* error and crashes.
 
