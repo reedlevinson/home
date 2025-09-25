@@ -9,9 +9,6 @@ Their [Coronavirus Resource Center](https://coronavirus.jhu.edu) is an outstandi
 They also provide all their data on GitHub!
 One repository is provided by the [Center for Systems Science and Engineering (CSSE)](https://github.com/CSSEGISandData/COVID-19),
 and another by the [Centers for Civic Impact](https://github.com/govex/COVID-19).
-In this assignment you will use the latter repository, which we have already cloned into `~/cs50-dev/shared/COVID-19`.
-(You can clone it onto your laptop, if you wish to play with it there, but the download is more than a gigabyte!)
-Note: their data bots update GitHub hourly so, for the record, we cloned our shared copy Tue Mar 30 15:22:01 UTC 2021.
 
 Specifically, we will work with the [US vaccination data](https://github.com/govex/COVID-19/tree/master/data_tables/vaccine_data/us_data).
 That page provides documentation describing the data, which appears in two subdirectories.
