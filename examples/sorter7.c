@@ -15,8 +15,7 @@
 #include <string.h>
 #include <stdbool.h>
 #include "readlinep.h"
-
-// A structure for each node in linked list
+/ A structure for each node in linked list
 struct listnode {
   char* line;
   struct listnode* next;

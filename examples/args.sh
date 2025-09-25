@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 #
 # A quick demonstration of command-line arguments in bash.
 #
