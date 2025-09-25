@@ -4,7 +4,7 @@ All course content is maintained in this Git repository -- including history of 
 
 * [Activities](activities/README.md)
 * [Knowledge units](knowledge/README.md)
-* [Examples](https://github.com/CS50DartmouthFA2025/examples)
+* [Examples](examples/)
 * [Labs](labs/README.md)
 * [Project](https://github.com/CS50DartmouthFA2025/home/tree/main/project)
 
