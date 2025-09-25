@@ -12,7 +12,7 @@ In each case you will need to write a testing script.
 
 ## Reminder
 
-Grading will focus on [CS50 coding style](logistics/style.md) - including consistent formatting, selection of identifier names, and use of meaningful comments - in addition to correctness and testing.
+Grading will focus on [CS50 coding style](../../logistics/style.md) - including consistent formatting, selection of identifier names, and use of meaningful comments - in addition to correctness and testing.
 
 ***Your C code must compile without producing any compiler warnings.***
 You will lose points if the compiler produces warnings when using our CS50-standard compiler flags (i.e., when compiled with `mygcc)`.
