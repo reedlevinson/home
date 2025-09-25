@@ -12,7 +12,7 @@ In each case you will need to write a testing script.
 
 ## Reminder
 
-Grading will focus on [CS50 coding style](https://github.com/CS50DartmouthFA2025/home/blob/main/labs/style.md) - including consistent formatting, selection of identifier names, and use of meaningful comments - in addition to correctness and testing.
+Grading will focus on [CS50 coding style](logistics/style.md) - including consistent formatting, selection of identifier names, and use of meaningful comments - in addition to correctness and testing.
 
 ***Your C code must compile without producing any compiler warnings.***
 You will lose points if the compiler produces warnings when using our CS50-standard compiler flags (i.e., when compiled with `mygcc)`.
@@ -22,21 +22,13 @@ You will lose points if the compiler produces warnings when using our CS50-stand
 <!-- @CHANGEME update the invitation link -->
 
 :point_right:
-[Accept the assignment](https://classroom.github.com/a/HuSrZRtN), and clone the repository into your `cs50-dev` work area (plink).
-It will looks something like this, assuming your GitHub username is XXXXX:
 
-```
-$ cd cs50-dev/
-$ git clone git@github.com:cs50spring2025/lab2-XXXXX.git
-Cloning into 'lab2-XXXXX'...
-```
-
-*Notice that I started work by changing to my cs50-dev directory.*
-The clone step will create a new directory `~/cs50-dev/lab2-XXXXX`.
-
-:point_right:
-First, edit `README.md` to remove instructions, add your name, and add your username.
-You can use this file to provide any overall comments you want to convey to the grader.
+1. Initialize a git repo
+- First, create a lab2 folder *on plink* and create a `README.md` file in it. Indicate your name in the first line. You will use this file to provide any overall comments you want to convey to the grader.
+- Initialize lab2 as a git repository. What command did you use for that?
+- Make sure that README.md is tracked. What command did you use for that?
+- Provide your responses to these questions in README.md
+- Commit your changes, with the message "Responses to question 1"
 
 > Remember that you can preview Markdown files with various Markdown-editing or -rendering tools (see: [Markdown resources](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/systems.md#markdown)) but we will read it on GitHub.com, so before you make your final submission decision be sure to check it there.
 
@@ -44,15 +36,28 @@ You can use this file to provide any overall comments you want to convey to the 
 Make three directories where you'll do your work:
 
 ```
-$ cd cs50-dev/lab2-XXXXX
+$ cd lab2
 $ mkdir chill words histo
 ```
 
 :point_right:
 In each subdirectory, write the corresponding program as described below.
 Each directory should have a `.gitignore` file, which causes git to ignore the respective binary file (e.g., `chill`, `words`, `histo`) and anything else you don't want committed.
-We've provided a CS50-default `.gitignore` file in the top-level directory of the repo, which should cover most of the usual things.
 
+Some other things that are good defaults to have for a `gitignore`:
+```
+# Emacs backup and scratch files
+*~
+\#*\#
+.\#*
+
+# MacOS stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+```
 
 -----------------------------------------------------------
 
@@ -66,9 +71,8 @@ Check `git status` before you commit; it will list the files that will be commit
 *Study the status output carefully: if you miss adding a file we need, you'll lose points, and if you add a scratch or binary file that should not be in the repo, you'll lose points.*
 
 :point_right:
-Follow the [lab submission instructions](https://github.com/CS50DartmouthFA2025/home/blob/main/labs/submit.md), and remember *this is Lab 2*.
+Follow the [lab submission instructions](https://github.com/CS50DartmouthFA2025/home/blob/main/logistics/submit.md), and remember *this is Lab 2*.
 
-To see your Lab submissions, as we see them, visit [classroom.github.com](https://classroom.github.com) and click on your specific Lab 2 repository, and see the files and commit history as GitHub has them.
 
 ----------------------------------------------------------------
 
