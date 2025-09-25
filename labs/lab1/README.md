@@ -20,34 +20,9 @@ The data is a spreadsheet formatted as *comma separated values* (csv) -- just a 
 You need to format your `README.md` file in Markdown syntax, and you will write two bash scripts that print their output in Markdown syntax.
 (See the Markdown information and example at bottom of this page.)
 
-## Preparation
-
-Do all your work on the Linux server.
-
-Clone the lab1 starter kit: [Accept the assignment](https://classroom.github.com/a/XZibWiRS), and clone the repository to your `cs50-dev` directory on `plank`.
-It will look something like this, assuming your GitHub username is XXXXX, and abbreviating the bash prompt to `$`:
-
-```
-	$ cd cs50-dev/
-	$ git clone git@github.com:CS50DartmouthFA2025/lab1-XXXXX.git
-	Cloning into 'lab1-XXXXX'...
-```
-
-*Notice that I started work by changing to my cs50-dev directory.*
-The clone step will create a new directory `~/cs50-dev/lab1-XXXXX`.
-
-Finally, `cd lab1-XXXXX` to begin work.
-
 ## Assignment
 
-A. Edit the file `README.md` to remove these instructions, add your name, add your username.
-  Add a `##` subsection header for each of the following tasks.
-  For problems B-H, paste your proposed bash command/pipeline (but not its output) after the appropriate header, surrounded by Markdown's "triple-ticks" notation, which looks like this:
-  
-  
-		```bash
-		command args...
-		```
+A. Create a ~/lab1 folder and create a lab1.sh file in it. Add a '#'comment for each of the following tasks. For problems B to H below, paste your proposed bash command/pipeline (but not its output) after the appropriate header.
 
 B. Explore the directory `~/cs50-dev/shared/COVID-19`.
 Find the pathname for the `hourly/vaccine_data_us.csv`.
