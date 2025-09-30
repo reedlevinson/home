@@ -40,7 +40,7 @@ The code is buggy and triggers a *stack smashing detected!* error and crashes.
 Study the code to be able to put answers to the following questions in a markdown for upload to Canvas Activity 6. 
 
 * Explain the pointer notation used in the parameters.
-* Explain the pointer notation used in the conditional.
+* Explain the pointer notation used in the first while loop condition.
 * Explain what the two loops accomplish
 * Why is there an assignment after the loop?
 * Where is the bug in `main()`?
