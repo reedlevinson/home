@@ -12,11 +12,11 @@ respectively.
 
 Hint: use `%p` to print out pointer values.
 
-Note: ignore compiler warnings from the original code.
+Note: the compiler will warn you about unused variables. We will ignore it in this exercise. In real-world projects, unused variables are to be avoided since they reduce readability and may cause confusion or even bugs.
 
-Do you notice anything unexpected about the resulting output?
-
+Do you notice anything unexpected about the resulting output? 
 Can you explain it?
+
 
 ---
 
