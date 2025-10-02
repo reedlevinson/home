@@ -2,7 +2,7 @@
 #
 # David Kotz 2021
 
-DATA = ~/cs50-dev/shared/COVID-19/data_tables/vaccine_data/us_data/hourly/vaccine_data_us.csv
+DATA = vaccine_data_us.csv
 OBJS = covid.o file.o
 LIBS =
 
