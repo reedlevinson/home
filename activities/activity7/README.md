@@ -7,15 +7,9 @@
 
 ## Prepare
 
-**Pick *one* person in your group to go first**, and [accept the assigment](https://classroom.github.com/a/gUZb9LNI) on GitHub Classroom.
-They will be asked to join an existing group or to create a new group; they should create a new group using your CS50 group name.
-Once finished, the rest of you should click through that link and pick the same group name from the list of existing groups.
-
-Clone that repository and make yourself a new branch:
-
-1. Log into plink; `cd cs50-dev`.
-2. `git clone` the repository from GitHub Classroom, above.
-3. `cd` into the resulting new subdirectory.
+1. Log into plink;
+2. `git clone` the repository for activiy7 located in /cs50/activity7.git
+3. `cd` into the resulting new cloned repo
 4. Copy the file `covid-blank.c` to `covid.c`
 5. One member of the team share screen and edit that file, filling in BLANKs.
 6. Build and run the program with `make test`.
@@ -35,4 +29,6 @@ Things to notice:
 * chopping the csv string by dropping in null characters
 * creating an array of pointers into the csv string
 
-Add your `covid.c` file to a Markdown file (using ```  ``` code block) and upload it to Canvas for Activity 7.
+- Make sure to commit your your `covid.c` file to the repository.
+- Upload the output of the `git log` command to Canvas
+
