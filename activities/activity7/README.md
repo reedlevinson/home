@@ -12,6 +12,7 @@
 3. `cd` into the resulting new cloned repo.
 4. Copy the file `covid-blank.c` to `covid.c`
 5. One member of the team share screen and edit that file, filling in BLANKs.
+Note: Allocate a large static array for `data`, of size 1000. Use a preprocessor macro directive to do so.
 6. Build and run the program with `make test`.
 
 Things to notice:
