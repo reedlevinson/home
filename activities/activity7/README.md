@@ -8,8 +8,8 @@
 ## Prepare
 
 1. Log into plink;
-2. `git clone` the repository for activiy7 located in /cs50/activity7.git
-3. `cd` into the resulting new cloned repo
+2. `git clone` the repository for activity7 located in /cs50/activity7.git into your home directory.
+3. `cd` into the resulting new cloned repo.
 4. Copy the file `covid-blank.c` to `covid.c`
 5. One member of the team share screen and edit that file, filling in BLANKs.
 6. Build and run the program with `make test`.
