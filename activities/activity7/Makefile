@@ -4,7 +4,7 @@
 
 DATA = vaccine_data_us.csv
 OBJS = covid.o file.o
-LIBS =
+LIBS = 
 
 CFLAGS = -Wall -pedantic -std=c11 -ggdb
 CC = gcc

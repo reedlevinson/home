@@ -1,0 +1,17 @@
+# Emacs backup and scratch files
+*~
+\#*\#
+.\#*
+
+# MacOS stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Others to ignore
+covid
+covid.o
+file.o
+vaccine_data_us.csv
